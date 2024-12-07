@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="823ddfc761074a9491a8576ba9ab974a" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="DemoRequestModel.Clients" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoRequestModel.Comments" Width="1.5" PointX="7.5" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoRequestModel.EquipmentRequests" Width="1.5" PointX="10.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoRequestModel.HomeTechModel" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoRequestModel.HomeTechType" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoRequestModel.Managers" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoRequestModel.Masters" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoRequestModel.Operators" Width="1.5" PointX="3" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoRequestModel.Requests" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoRequestModel.StatusRequests" Width="1.5" PointX="3" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoRequestModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DemoRequestModel.Users" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="DemoRequestModel.FK__Clients__UserID__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Requests__Client__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Comments__Master__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Comments__Reques__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Equipment__Manag__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Equipment__Maste__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Equipment__Reque__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Equipment__Statu__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__HomeTechM__TypeI__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Requests__ModelI__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Managers__UserID__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Masters__UserID__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Requests__Master__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Operators__UserI__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoRequestModel.FK__Requests__Status__4CA06362" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

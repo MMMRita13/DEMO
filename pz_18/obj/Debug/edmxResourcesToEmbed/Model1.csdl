@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DemoRequestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="ClientID" />
+    </Key>
+    <Property Name="ClientID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Clients__UserID__398D8EEE" FromRole="Clients" ToRole="Users" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK__Requests__Client__4E88ABD4" FromRole="Clients" ToRole="Requests" />
+  </EntityType>
+  <EntityType Name="Comments">
+    <Key>
+      <PropertyRef Name="CommentID" />
+    </Key>
+    <Property Name="CommentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Message" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MasterID" Type="Int32" Nullable="false" />
+    <Property Name="RequestID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Masters" Relationship="Self.FK__Comments__Master__5165187F" FromRole="Comments" ToRole="Masters" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK__Comments__Reques__52593CB8" FromRole="Comments" ToRole="Requests" />
+  </EntityType>
+  <EntityType Name="EquipmentRequests">
+    <Key>
+      <PropertyRef Name="EquipmentRequestID" />
+    </Key>
+    <Property Name="EquipmentRequestID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProblemDescription" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="RequestID" Type="Int32" Nullable="false" />
+    <Property Name="MasterID" Type="Int32" Nullable="false" />
+    <Property Name="ManagerID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Managers" Relationship="Self.FK__Equipment__Manag__5812160E" FromRole="EquipmentRequests" ToRole="Managers" />
+    <NavigationProperty Name="Masters" Relationship="Self.FK__Equipment__Maste__571DF1D5" FromRole="EquipmentRequests" ToRole="Masters" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK__Equipment__Reque__5629CD9C" FromRole="EquipmentRequests" ToRole="Requests" />
+    <NavigationProperty Name="StatusRequests" Relationship="Self.FK__Equipment__Statu__5535A963" FromRole="EquipmentRequests" ToRole="StatusRequests" />
+  </EntityType>
+  <EntityType Name="HomeTechModel">
+    <Key>
+      <PropertyRef Name="HomeTechModelID" />
+    </Key>
+    <Property Name="HomeTechModelID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TypeID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="HomeTechType" Relationship="Self.FK__HomeTechM__TypeI__46E78A0C" FromRole="HomeTechModel" ToRole="HomeTechType" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK__Requests__ModelI__4BAC3F29" FromRole="HomeTechModel" ToRole="Requests" />
+  </EntityType>
+  <EntityType Name="HomeTechType">
+    <Key>
+      <PropertyRef Name="HomeTechTypeID" />
+    </Key>
+    <Property Name="HomeTechTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="HomeTechModel" Relationship="Self.FK__HomeTechM__TypeI__46E78A0C" FromRole="HomeTechType" ToRole="HomeTechModel" />
+  </EntityType>
+  <EntityType Name="Managers">
+    <Key>
+      <PropertyRef Name="ManagerID" />
+    </Key>
+    <Property Name="ManagerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="EquipmentRequests" Relationship="Self.FK__Equipment__Manag__5812160E" FromRole="Managers" ToRole="EquipmentRequests" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Managers__UserID__3F466844" FromRole="Managers" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Masters">
+    <Key>
+      <PropertyRef Name="MasterID" />
+    </Key>
+    <Property Name="MasterID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK__Comments__Master__5165187F" FromRole="Masters" ToRole="Comments" />
+    <NavigationProperty Name="EquipmentRequests" Relationship="Self.FK__Equipment__Maste__571DF1D5" FromRole="Masters" ToRole="EquipmentRequests" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Masters__UserID__3C69FB99" FromRole="Masters" ToRole="Users" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK__Requests__Master__4D94879B" FromRole="Masters" ToRole="Requests" />
+  </EntityType>
+  <EntityType Name="Operators">
+    <Key>
+      <PropertyRef Name="OperatorsID" />
+    </Key>
+    <Property Name="OperatorsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Operators__UserI__4222D4EF" FromRole="Operators" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Requests">
+    <Key>
+      <PropertyRef Name="RequestID" />
+    </Key>
+    <Property Name="RequestID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModelID" Type="Int32" Nullable="false" />
+    <Property Name="ProblemDescription" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="StatusRequest" Type="Int32" Nullable="false" />
+    <Property Name="CompletionDate" Type="DateTime" Precision="0" />
+    <Property Name="RepairParts" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MasterID" Type="Int32" Nullable="false" />
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Clients" Relationship="Self.FK__Requests__Client__4E88ABD4" FromRole="Requests" ToRole="Clients" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK__Comments__Reques__52593CB8" FromRole="Requests" ToRole="Comments" />
+    <NavigationProperty Name="EquipmentRequests" Relationship="Self.FK__Equipment__Reque__5629CD9C" FromRole="Requests" ToRole="EquipmentRequests" />
+    <NavigationProperty Name="HomeTechModel" Relationship="Self.FK__Requests__ModelI__4BAC3F29" FromRole="Requests" ToRole="HomeTechModel" />
+    <NavigationProperty Name="Masters" Relationship="Self.FK__Requests__Master__4D94879B" FromRole="Requests" ToRole="Masters" />
+    <NavigationProperty Name="StatusRequests" Relationship="Self.FK__Requests__Status__4CA06362" FromRole="Requests" ToRole="StatusRequests" />
+  </EntityType>
+  <EntityType Name="StatusRequests">
+    <Key>
+      <PropertyRef Name="StatusRequestsID" />
+    </Key>
+    <Property Name="StatusRequestsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="EquipmentRequests" Relationship="Self.FK__Equipment__Statu__5535A963" FromRole="StatusRequests" ToRole="EquipmentRequests" />
+    <NavigationProperty Name="Requests" Relationship="Self.FK__Requests__Status__4CA06362" FromRole="StatusRequests" ToRole="Requests" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Llogin" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Ppassword" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Clients" Relationship="Self.FK__Clients__UserID__398D8EEE" FromRole="Users" ToRole="Clients" />
+    <NavigationProperty Name="Managers" Relationship="Self.FK__Managers__UserID__3F466844" FromRole="Users" ToRole="Managers" />
+    <NavigationProperty Name="Masters" Relationship="Self.FK__Masters__UserID__3C69FB99" FromRole="Users" ToRole="Masters" />
+    <NavigationProperty Name="Operators" Relationship="Self.FK__Operators__UserI__4222D4EF" FromRole="Users" ToRole="Operators" />
+  </EntityType>
+  <Association Name="FK__Clients__UserID__398D8EEE">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Clients" Type="Self.Clients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Clients">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Requests__Client__4E88ABD4">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="ClientID" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Comments__Master__5165187F">
+    <End Role="Masters" Type="Self.Masters" Multiplicity="1" />
+    <End Role="Comments" Type="Self.Comments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Masters">
+        <PropertyRef Name="MasterID" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="MasterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Comments__Reques__52593CB8">
+    <End Role="Requests" Type="Self.Requests" Multiplicity="1" />
+    <End Role="Comments" Type="Self.Comments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Requests">
+        <PropertyRef Name="RequestID" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="RequestID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Equipment__Manag__5812160E">
+    <End Role="Managers" Type="Self.Managers" Multiplicity="1" />
+    <End Role="EquipmentRequests" Type="Self.EquipmentRequests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Managers">
+        <PropertyRef Name="ManagerID" />
+      </Principal>
+      <Dependent Role="EquipmentRequests">
+        <PropertyRef Name="ManagerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Equipment__Maste__571DF1D5">
+    <End Role="Masters" Type="Self.Masters" Multiplicity="1" />
+    <End Role="EquipmentRequests" Type="Self.EquipmentRequests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Masters">
+        <PropertyRef Name="MasterID" />
+      </Principal>
+      <Dependent Role="EquipmentRequests">
+        <PropertyRef Name="MasterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Equipment__Reque__5629CD9C">
+    <End Role="Requests" Type="Self.Requests" Multiplicity="1" />
+    <End Role="EquipmentRequests" Type="Self.EquipmentRequests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Requests">
+        <PropertyRef Name="RequestID" />
+      </Principal>
+      <Dependent Role="EquipmentRequests">
+        <PropertyRef Name="RequestID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Equipment__Statu__5535A963">
+    <End Role="StatusRequests" Type="Self.StatusRequests" Multiplicity="1" />
+    <End Role="EquipmentRequests" Type="Self.EquipmentRequests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusRequests">
+        <PropertyRef Name="StatusRequestsID" />
+      </Principal>
+      <Dependent Role="EquipmentRequests">
+        <PropertyRef Name="Status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HomeTechM__TypeI__46E78A0C">
+    <End Role="HomeTechType" Type="Self.HomeTechType" Multiplicity="1" />
+    <End Role="HomeTechModel" Type="Self.HomeTechModel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HomeTechType">
+        <PropertyRef Name="HomeTechTypeID" />
+      </Principal>
+      <Dependent Role="HomeTechModel">
+        <PropertyRef Name="TypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Requests__ModelI__4BAC3F29">
+    <End Role="HomeTechModel" Type="Self.HomeTechModel" Multiplicity="1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HomeTechModel">
+        <PropertyRef Name="HomeTechModelID" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="ModelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Managers__UserID__3F466844">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Managers" Type="Self.Managers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Managers">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Masters__UserID__3C69FB99">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Masters" Type="Self.Masters" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Masters">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Requests__Master__4D94879B">
+    <End Role="Masters" Type="Self.Masters" Multiplicity="1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Masters">
+        <PropertyRef Name="MasterID" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="MasterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Operators__UserI__4222D4EF">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Operators" Type="Self.Operators" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Operators">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Requests__Status__4CA06362">
+    <End Role="StatusRequests" Type="Self.StatusRequests" Multiplicity="1" />
+    <End Role="Requests" Type="Self.Requests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusRequests">
+        <PropertyRef Name="StatusRequestsID" />
+      </Principal>
+      <Dependent Role="Requests">
+        <PropertyRef Name="StatusRequest" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DemoRequestEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clients" EntityType="Self.Clients" />
+    <EntitySet Name="Comments" EntityType="Self.Comments" />
+    <EntitySet Name="EquipmentRequests" EntityType="Self.EquipmentRequests" />
+    <EntitySet Name="HomeTechModel" EntityType="Self.HomeTechModel" />
+    <EntitySet Name="HomeTechType" EntityType="Self.HomeTechType" />
+    <EntitySet Name="Managers" EntityType="Self.Managers" />
+    <EntitySet Name="Masters" EntityType="Self.Masters" />
+    <EntitySet Name="Operators" EntityType="Self.Operators" />
+    <EntitySet Name="Requests" EntityType="Self.Requests" />
+    <EntitySet Name="StatusRequests" EntityType="Self.StatusRequests" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK__Clients__UserID__398D8EEE" Association="Self.FK__Clients__UserID__398D8EEE">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Clients" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Requests__Client__4E88ABD4" Association="Self.FK__Requests__Client__4E88ABD4">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Comments__Master__5165187F" Association="Self.FK__Comments__Master__5165187F">
+      <End Role="Masters" EntitySet="Masters" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Comments__Reques__52593CB8" Association="Self.FK__Comments__Reques__52593CB8">
+      <End Role="Requests" EntitySet="Requests" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Equipment__Manag__5812160E" Association="Self.FK__Equipment__Manag__5812160E">
+      <End Role="Managers" EntitySet="Managers" />
+      <End Role="EquipmentRequests" EntitySet="EquipmentRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Equipment__Maste__571DF1D5" Association="Self.FK__Equipment__Maste__571DF1D5">
+      <End Role="Masters" EntitySet="Masters" />
+      <End Role="EquipmentRequests" EntitySet="EquipmentRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Equipment__Reque__5629CD9C" Association="Self.FK__Equipment__Reque__5629CD9C">
+      <End Role="Requests" EntitySet="Requests" />
+      <End Role="EquipmentRequests" EntitySet="EquipmentRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Equipment__Statu__5535A963" Association="Self.FK__Equipment__Statu__5535A963">
+      <End Role="StatusRequests" EntitySet="StatusRequests" />
+      <End Role="EquipmentRequests" EntitySet="EquipmentRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HomeTechM__TypeI__46E78A0C" Association="Self.FK__HomeTechM__TypeI__46E78A0C">
+      <End Role="HomeTechType" EntitySet="HomeTechType" />
+      <End Role="HomeTechModel" EntitySet="HomeTechModel" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Requests__ModelI__4BAC3F29" Association="Self.FK__Requests__ModelI__4BAC3F29">
+      <End Role="HomeTechModel" EntitySet="HomeTechModel" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Managers__UserID__3F466844" Association="Self.FK__Managers__UserID__3F466844">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Managers" EntitySet="Managers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Masters__UserID__3C69FB99" Association="Self.FK__Masters__UserID__3C69FB99">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Masters" EntitySet="Masters" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Requests__Master__4D94879B" Association="Self.FK__Requests__Master__4D94879B">
+      <End Role="Masters" EntitySet="Masters" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Operators__UserI__4222D4EF" Association="Self.FK__Operators__UserI__4222D4EF">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Operators" EntitySet="Operators" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Requests__Status__4CA06362" Association="Self.FK__Requests__Status__4CA06362">
+      <End Role="StatusRequests" EntitySet="StatusRequests" />
+      <End Role="Requests" EntitySet="Requests" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(DemoRequestModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(DemoRequestModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>
