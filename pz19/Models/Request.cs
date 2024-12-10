@@ -15,13 +15,13 @@ public partial class Request
 
     public int StatusRequest { get; set; }
 
-    public DateOnly? CompletionDate { get; set; }
+    public DateTime CompletionDate { get; set; }
 
     public string RepairParts { get; set; } = null!;
 
     public int MasterId { get; set; }
 
-    public int ClientId { get; set; }
+    public Guid ClientId { get; set; }
 
     public virtual Client Client { get; set; } = null!;
 
@@ -34,4 +34,6 @@ public partial class Request
     public virtual HomeTechModel Model { get; set; } = null!;
 
     public virtual StatusRequest StatusRequestNavigation { get; set; } = null!;
+
+
 }

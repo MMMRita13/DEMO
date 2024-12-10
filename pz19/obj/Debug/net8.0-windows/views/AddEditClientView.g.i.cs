@@ -30,6 +30,8 @@ using System.Windows.Media.TextFormatting;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Shell;
+using pz19;
+using pz_18.ViewModels;
 using pz_18.Views;
 
 
@@ -53,7 +55,7 @@ namespace pz_18.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/pz19;component/views/addeditclientview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/pz19;V1.0.0.0;component/views/addeditclientview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\AddEditClientView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
