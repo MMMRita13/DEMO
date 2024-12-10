@@ -20,3 +20,20 @@ E:\4 курс\МДК 01.01 Разработка программных моду�
 E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz_18\obj\Debug\pz_18.csproj.Up2Date
 E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz_18\obj\Debug\pz_18.exe
 E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz_18\obj\Debug\pz_18.pdb
+D:\DEMO\DEMO\pz_18\obj\Debug\pz_18.csproj.AssemblyReference.cache
+D:\DEMO\DEMO\pz_18\obj\Debug\MainWindow.g.cs
+D:\DEMO\DEMO\pz_18\obj\Debug\Views\AddEditClientView.g.cs
+D:\DEMO\DEMO\pz_18\obj\Debug\Views\AddRequestView.g.cs
+D:\DEMO\DEMO\pz_18\obj\Debug\Views\ClientView.g.cs
+D:\DEMO\DEMO\pz_18\obj\Debug\Views\RequestView.g.cs
+D:\DEMO\DEMO\pz_18\obj\Debug\App.g.cs
+D:\DEMO\DEMO\pz_18\obj\Debug\pz_18_Content.g.cs
+D:\DEMO\DEMO\pz_18\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\DEMO\DEMO\pz_18\obj\Debug\pz_18_MarkupCompile.cache
+D:\DEMO\DEMO\pz_18\obj\Debug\pz_18_MarkupCompile.lref
+D:\DEMO\DEMO\pz_18\obj\Debug\Views\AddEditClientView.baml
+D:\DEMO\DEMO\pz_18\obj\Debug\Views\AddRequestView.baml
+D:\DEMO\DEMO\pz_18\obj\Debug\Views\ClientView.baml
+D:\DEMO\DEMO\pz_18\obj\Debug\Views\RequestView.baml
+D:\DEMO\DEMO\pz_18\obj\Debug\pz_18.exe
+D:\DEMO\DEMO\pz_18\obj\Debug\pz_18.pdb

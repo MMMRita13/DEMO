@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "E:\\4 курс\\МДК 01.01 Разработка программных модулей\\ДЭ\\TestProject1\\TestProject1.csproj": {}
+    "D:\\DEMO\\DEMO\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "E:\\4 курс\\МДК 01.01 Разработка программных модулей\\ДЭ\\pz_18\\pz_18.csproj": {
+    "D:\\DEMO\\DEMO\\pz_18\\pz_18.csproj": {
       "restore": {
-        "projectUniqueName": "E:\\4 курс\\МДК 01.01 Разработка программных модулей\\ДЭ\\pz_18\\pz_18.csproj",
+        "projectUniqueName": "D:\\DEMO\\DEMO\\pz_18\\pz_18.csproj",
         "projectName": "pz_18",
-        "projectPath": "E:\\4 курс\\МДК 01.01 Разработка программных модулей\\ДЭ\\pz_18\\pz_18.csproj",
+        "projectPath": "D:\\DEMO\\DEMO\\pz_18\\pz_18.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
@@ -20,14 +20,14 @@
         "net472": {}
       }
     },
-    "E:\\4 курс\\МДК 01.01 Разработка программных модулей\\ДЭ\\TestProject1\\TestProject1.csproj": {
+    "D:\\DEMO\\DEMO\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\4 курс\\МДК 01.01 Разработка программных модулей\\ДЭ\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "D:\\DEMO\\DEMO\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "E:\\4 курс\\МДК 01.01 Разработка программных модулей\\ДЭ\\TestProject1\\TestProject1.csproj",
+        "projectPath": "D:\\DEMO\\DEMO\\TestProject1\\TestProject1.csproj",
         "packagesPath": "C:\\Users\\Маргарита\\.nuget\\packages\\",
-        "outputPath": "E:\\4 курс\\МДК 01.01 Разработка программных модулей\\ДЭ\\TestProject1\\obj\\",
+        "outputPath": "D:\\DEMO\\DEMO\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,8 +48,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\4 курс\\МДК 01.01 Разработка программных модулей\\ДЭ\\pz_18\\pz_18.csproj": {
-                "projectPath": "E:\\4 курс\\МДК 01.01 Разработка программных модулей\\ДЭ\\pz_18\\pz_18.csproj"
+              "D:\\DEMO\\DEMO\\pz_18\\pz_18.csproj": {
+                "projectPath": "D:\\DEMO\\DEMO\\pz_18\\pz_18.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "78uWs2FExx4=",
+  "dgSpecHash": "xXuYmvcQrjo=",
   "success": true,
-  "projectFilePath": "E:\\4 курс\\МДК 01.01 Разработка программных модулей\\ДЭ\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "D:\\DEMO\\DEMO\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Маргарита\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Маргарита\\.nuget\\packages\\microsoft.azure.documentdb.core\\2.22.0\\microsoft.azure.documentdb.core.2.22.0.nupkg.sha512",

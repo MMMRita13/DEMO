@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz_18\obj\Debug\
+D:\DEMO\DEMO\pz_18\obj\Debug\
 pz_18
 none
 false
 DEBUG;TRACE
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz_18\App.xaml
-1219584333
+D:\DEMO\DEMO\pz_18\App.xaml
+5596692149
 2-1957146511
-251902228699
-181188040991
-MainWindow.xaml;
+33-1398094883
+18-452333773
+MainWindow.xaml;Views\AddEditClientView.xaml;Views\AddRequestView.xaml;Views\ClientView.xaml;Views\RequestView.xaml;
 
-False
+True
 
