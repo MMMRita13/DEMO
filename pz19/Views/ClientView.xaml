@@ -1,14 +1,97 @@
-﻿<Page x:Class="pz_18.Views.ClientViewModel"
+﻿<UserControl x:Class="pz19.Views.ClientView"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:pz_18.Views"
+      xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+      xmlns:local="clr-namespace:pz19.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="ClientViewModel">
+      d:DesignHeight="450" d:DesignWidth="800">
+
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadCLientCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Name="NavigationBar" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="добавить клиента"
+                    Command="{Binding AddCLientCommand}"
+                    Grid.Column="0"
+                    HorizontalAlignment="Left"
+                    HorizontalContentAlignment="Center"
+                    Width="150"/>
+            <StackPanel Orientation="Horizontal"
+                        Grid.Column="1"
+                        HorizontalAlignment="Right">
+                <TextBlock Text="поиск:"
+                           Margin="5"/>
+                <TextBox Text="{Binding SearchInput,
+                    UpdateSourceTrigger=PropertyChanged}"
+                         Width="200"/>
+                <Button Content="X"
+                        Command="{Binding ClearSearchInput}"/>
+            </StackPanel>
+        </Grid>
+
+        <DataGrid ItemsSource="{Binding Clients}"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Fio}"
+                     Width="*"/>
+
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="оформить заявку"
+                                    Command="{Binding DataContext.PlaceRequestCommand,
+                                        RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"
+                                    CommandParameter="{Binding}"
+                                    Margin="5"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="редактировать"
+                                    Command="{Binding DataContext.EditClientCommand,
+                                        RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"
+                                    CommandParameter="{Binding}"
+                                    Margin="5"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="посмотреть заявки"
+                        Command="{Binding DataContext.GetAllRequestsByClientCommand,
+                            RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"
+                        CommandParameter="{Binding}"
+                        Margin="5"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+
+
     </Grid>
-</Page>
+</UserControl>
+

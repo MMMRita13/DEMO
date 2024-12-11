@@ -52,7 +52,7 @@ namespace pz19.ViewModels
         }
 
         public ObservableCollection<Client> Customers { get; } = new();
-        public ObservableCollection<StatusRequest> OrderStatuses { get; } = new();
+        public ObservableCollection<StatusRequest> StatusRequests { get; } = new();
 
         private StatusRequest? _selectedOrderStatus;
 
@@ -62,17 +62,17 @@ namespace pz19.ViewModels
             set
             {
                 SetProperty(ref _selectedOrderStatus, value);
-                StatusRequest.StatusRequestId = value?.RequestId ?? 0;
+                Request.StatusRequest = value?.StatusRequestsId ?? 0;
             }
         }
 
         public async void LoadOrderStatuses()
         {
             var statuses = await _orderRepository.GetAllStatusRequestAsync();
-            StatusRequest.Clear();
+            StatusRequests.Clear();
             foreach (var status in statuses)
             {
-                StatusRequest.Add(status);
+                StatusRequests.Add(status);
             }
         }
 

@@ -13,12 +13,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace pz_18.Views
+namespace pz19.Views
 {
     /// <summary>
     /// Логика взаимодействия для AddRequest.xaml
     /// </summary>
-    public partial class AddRequest : Page
+    public partial class AddRequest : UserControl
     {
         public AddRequest()
         {

@@ -13,12 +13,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace pz_18.Views
+namespace pz19.Views
 {
     /// <summary>
     /// Логика взаимодействия для AddEditClientView.xaml
     /// </summary>
-    public partial class AddEditClientView : Page
+    public partial class AddEditClientView : UserControl
     {
         public AddEditClientView()
         {

@@ -60,5 +60,10 @@ namespace pz19.Services
             await _context.SaveChangesAsync();
             return request;
         }
+
+        public Task<List<Request>> GetRequestsByClientAsync(Guid clientId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -9,8 +9,8 @@ namespace pz19.ViewModels
 {
     public  class ValidableClient : ValidableBindableBase
     {
-        private int _id;
-        public int Id { get => _id; set => SetProperty(ref _id, value); }
+        private Guid _id;
+        public Guid Id { get => _id; set => SetProperty(ref _id, value); }
 
         private string _fio;
         [Required]

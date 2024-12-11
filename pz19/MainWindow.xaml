@@ -4,16 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pz19"
-        xmlns:views="clr-namespace:pz_18.Views"
-        xmlns:viewModess="clr-namespace:pz_18.ViewModels"
+        xmlns:views="clr-namespace:pz19.Views"
+        xmlns:viewModess="clr-namespace:pz19.ViewModels"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Window.Resources>
-    <DataTemplate DataType="{x:Type viewModels:AddEditClientViewModel}">
-        <views:AddEditClientView/>
-    </DataTemplate>
-    <DataTemplate DataType="{x:Type viewModels:ClientViewModel}">
-        <views:ClientView/>
+        <DataTemplate DataType="{x:Type viewModels:AddEditClientViewModel}">
+            <views:AddEditClientView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:ClientViewModel}">
+            <views:ClientView/>
     </DataTemplate>
     <DataTemplate DataType="{x:Type viewModels:RequestViewModel}">
         <views:RequestView/>
@@ -43,7 +44,7 @@
             Command="{Binding NavigationCommand}"
             CommandParameter="customers"/>
 
-        <Button Content="оформленные заказы"
+        <Button Content="заявки"
             Command="{Binding NavigationCommand}"
             CommandParameter="orderPrep"
             Grid.Column="1"/>

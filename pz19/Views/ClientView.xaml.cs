@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace pz_18.Views
+namespace pz19.Views
 {
     /// <summary>
     /// Логика взаимодействия для ClientViewModel.xaml
     /// </summary>
-    public partial class ClientViewModel : Page
+    public partial class ClientView : UserControl
     {
-        public ClientViewModel()
+        public ClientView()
         {
             InitializeComponent();
         }

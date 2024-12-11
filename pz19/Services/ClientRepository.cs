@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pizza.Services
+namespace pz19.Services
 {
     public class ClientRepository : IClientRepository
     {
@@ -19,7 +19,7 @@ namespace Pizza.Services
             return client;
         }
 
-        public async Task DeleteClientAsync(int clientId)
+        public async Task DeleteClientAsync(Guid clientId)
         {
             var client = _context.Clients
                 .FirstOrDefault(x => x.ClientId == clientId);
@@ -30,7 +30,7 @@ namespace Pizza.Services
             await _context.SaveChangesAsync();
         }
 
-        public Task<Client> GetClientByIdAsync(int clientId)
+        public Task<Client> GetClientByIdAsync(Guid clientId)
         {
             return _context.Clients.FirstOrDefaultAsync(x => x.ClientId == clientId);
         }

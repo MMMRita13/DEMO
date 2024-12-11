@@ -13,12 +13,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace pz_18.Views
+namespace pz19.Views
 {
     /// <summary>
     /// Логика взаимодействия для RequestView.xaml
     /// </summary>
-    public partial class RequestView : Page
+    public partial class RequestView : UserControl
     {
         public RequestView()
         {

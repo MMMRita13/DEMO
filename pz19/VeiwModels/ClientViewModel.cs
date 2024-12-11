@@ -1,4 +1,4 @@
-﻿using Pizza.Services;
+﻿using pz19.Services;
 using pz19;
 using pz19.Models;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pz_18.ViewModels
+namespace pz19.ViewModels
 {
     class ClientViewModel: BindableBase
     {

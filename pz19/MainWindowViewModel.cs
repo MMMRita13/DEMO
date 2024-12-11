@@ -11,7 +11,7 @@ using Unity;
 using pz_18.ViewModels;
 using pz19.ViewModels;
 using pz19.Models;
-using Prism.Mvvm;
+
 
 
 namespace pz19
@@ -88,23 +88,23 @@ namespace pz19
         private void NavigationToEditCustomer(Client client)
         {
             _addEditClientVewModel.IsEditeMode = true;
-            _addEditClientVewModel.SetCustomer(client);
+            _addEditClientVewModel.SetClient(client);
             ClientBBViewModel = _addEditClientVewModel;
         }
 
         private void NavigationToEditOrder(Client client)
         {
             _addEditClientVewModel.IsEditeMode = true;
-            _addEditClientVewModel.SetCustomer(client);
+            _addEditClientVewModel.SetClient(client);
             ClientBBViewModel = _addEditClientVewModel;
         }
 
         private void NavigationToAddCustomer()
         {
             _addEditClientVewModel.IsEditeMode = false;
-            _addEditClientVewModel.SetCustomer(new Client
+            _addEditClientVewModel.SetClient(new Client
             {
-                Id = Guid.NewGuid(),
+                ClientId = Guid.NewGuid(),
             });
             ClientBBViewModel = _addEditClientVewModel;
         }
@@ -114,16 +114,16 @@ namespace pz19
         {
             if (client == null)
             {
-                MessageBox.Show("Customer is not selected. Please select a customer to proceed.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Client is not selected. Please select a client to proceed.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
             _addRequestViewModel.SelectedCustomer = client;
-            _addRequestViewModel.Order = new Order
+            _addRequestViewModel.Request = new Request
             {
-                CustomerId = client.Id,
-                OrderDate = DateTime.Now,
-                DeliveryDate = DateTime.Now.AddDays(1)
+                ClientId = client.ClientId,
+                StartDate = DateTime.Now,
+                CompletionDate = DateTime.Now.AddDays(1)
             };
             ClientBBViewModel = _addRequestViewModel;
         }
@@ -131,12 +131,12 @@ namespace pz19
         {
             if (client == null)
             {
-                MessageBox.Show("Customer is not selected. Please select a customer to proceed.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Client is not selected. Please select a client to proceed.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
             _requestViewModel.LoadOrders();
-            _requestViewModel.SelectedCustomer = client;
+            _requestViewModel.SelectedClient = client;
             ClientBBViewModel = _requestViewModel;
         }
         private void ReturnToCustomerList()
