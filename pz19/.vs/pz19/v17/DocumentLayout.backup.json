@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\veiwmodels\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:veiwmodels\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\services\\repocontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:services\\repocontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\veiwmodels\\requestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:veiwmodels\\requestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\viewmodels\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:viewmodels\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,68 +15,40 @@
       "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\demorequestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:demorequestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\views\\clientview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:views\\clientview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\views\\requestview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:views\\requestview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\views\\clientview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:views\\clientview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\models\\statusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:models\\statusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\views\\addrequestview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:views\\addrequestview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\veiwmodels\\addrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:veiwmodels\\addrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\models\\hometechmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:models\\hometechmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\views\\addeditclientview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:views\\addeditclientview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\converters\\valuetovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:converters\\valuetovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\viewmodels\\addeditclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:viewmodels\\addeditclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\veiwmodels\\addeditclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:veiwmodels\\addeditclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\validablebindablebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:validablebindablebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\demorequestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:demorequestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\bindablebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:bindablebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\views\\requestview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:views\\requestview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\views\\clientview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:views\\clientview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\views\\addrequestview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,32 +59,12 @@
       "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:views\\addeditclientview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\veiwmodels\\validableclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:veiwmodels\\validableclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\views\\clientview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:views\\clientview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\services\\requestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:services\\requestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\services\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:services\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\services\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:services\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\models\\demorequestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:models\\demorequestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\pz19.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:pz19.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043C\u0434\u043A 01.01 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0434\u044D\\pz19\\views\\requestview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33533CDB-9881-462A-963F-68A2074B3E9E}|pz19.csproj|solutionrelative:views\\requestview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,8 +74,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientViewModel.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\ViewModels\\ClientViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ClientViewModel.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\ViewModels\\ClientViewModel.cs*",
+              "RelativeToolTip": "ViewModels\\ClientViewModel.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwCUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:20:21.01Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -154,366 +111,193 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RepoContainer.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Services\\RepoContainer.cs",
-              "RelativeDocumentMoniker": "Services\\RepoContainer.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Services\\RepoContainer.cs",
-              "RelativeToolTip": "Services\\RepoContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:55:34.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DemoRequestContext.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\DemoRequestContext.cs",
-              "RelativeDocumentMoniker": "DemoRequestContext.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\DemoRequestContext.cs",
-              "RelativeToolTip": "DemoRequestContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:37:59.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T09:29:45.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "RequestView.xaml",
               "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\RequestView.xaml",
               "RelativeDocumentMoniker": "Views\\RequestView.xaml",
               "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\RequestView.xaml",
               "RelativeToolTip": "Views\\RequestView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T19:55:07.584Z",
+              "WhenOpened": "2024-12-11T19:08:48.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "MainWindowViewModel.cs",
               "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\MainWindowViewModel.cs",
               "RelativeToolTip": "MainWindowViewModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAIAwwFEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T10:24:30.783Z",
+              "WhenOpened": "2024-12-11T18:58:32.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RequestViewModel.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\VeiwModels\\RequestViewModel.cs",
-              "RelativeDocumentMoniker": "VeiwModels\\RequestViewModel.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\VeiwModels\\RequestViewModel.cs",
-              "RelativeToolTip": "VeiwModels\\RequestViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:27:03.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientViewModel.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\VeiwModels\\ClientViewModel.cs",
-              "RelativeDocumentMoniker": "VeiwModels\\ClientViewModel.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\VeiwModels\\ClientViewModel.cs*",
-              "RelativeToolTip": "VeiwModels\\ClientViewModel.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:04:20.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClientView.xaml",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\ClientView.xaml",
-              "RelativeDocumentMoniker": "Views\\ClientView.xaml",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\ClientView.xaml",
-              "RelativeToolTip": "Views\\ClientView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T11:43:35.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Request.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Models\\Request.cs",
-              "RelativeDocumentMoniker": "Models\\Request.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Models\\Request.cs",
-              "RelativeToolTip": "Models\\Request.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:13:22.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StatusRequest.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Models\\StatusRequest.cs",
-              "RelativeDocumentMoniker": "Models\\StatusRequest.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Models\\StatusRequest.cs",
-              "RelativeToolTip": "Models\\StatusRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:02:46.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "AddRequestView.xaml",
               "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\AddRequestView.xaml",
               "RelativeDocumentMoniker": "Views\\AddRequestView.xaml",
               "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\AddRequestView.xaml",
               "RelativeToolTip": "Views\\AddRequestView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T11:42:15.642Z"
+              "WhenOpened": "2024-12-11T18:51:20.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddRequestViewModel.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\VeiwModels\\AddRequestViewModel.cs",
-              "RelativeDocumentMoniker": "VeiwModels\\AddRequestViewModel.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\VeiwModels\\AddRequestViewModel.cs",
-              "RelativeToolTip": "VeiwModels\\AddRequestViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEAAAABFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ClientView.xaml",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\ClientView.xaml",
+              "RelativeDocumentMoniker": "Views\\ClientView.xaml",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\ClientView.xaml",
+              "RelativeToolTip": "Views\\ClientView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T18:41:27.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddEditClientViewModel.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\ViewModels\\AddEditClientViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AddEditClientViewModel.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\ViewModels\\AddEditClientViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AddEditClientViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T10:24:06.005Z"
+              "WhenOpened": "2024-12-11T18:54:25.351Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeTechModel.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Models\\HomeTechModel.cs",
-              "RelativeDocumentMoniker": "Models\\HomeTechModel.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Models\\HomeTechModel.cs",
-              "RelativeToolTip": "Models\\HomeTechModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T18:55:48.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DemoRequestContext.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\DemoRequestContext.cs",
+              "RelativeDocumentMoniker": "DemoRequestContext.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\DemoRequestContext.cs",
+              "RelativeToolTip": "DemoRequestContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T10:02:47.574Z"
+              "WhenOpened": "2024-12-11T18:55:06.576Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "AddEditClientView.xaml",
               "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\AddEditClientView.xaml",
               "RelativeDocumentMoniker": "Views\\AddEditClientView.xaml",
               "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\AddEditClientView.xaml",
               "RelativeToolTip": "Views\\AddEditClientView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-10T11:41:08.997Z"
+              "WhenOpened": "2024-12-11T18:39:42.575Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ValueToVisibilityConverter.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Converters\\ValueToVisibilityConverter.cs",
-              "RelativeDocumentMoniker": "Converters\\ValueToVisibilityConverter.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Converters\\ValueToVisibilityConverter.cs",
-              "RelativeToolTip": "Converters\\ValueToVisibilityConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T20:05:54.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AddEditClientViewModel.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\VeiwModels\\AddEditClientViewModel.cs",
-              "RelativeDocumentMoniker": "VeiwModels\\AddEditClientViewModel.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\VeiwModels\\AddEditClientViewModel.cs",
-              "RelativeToolTip": "VeiwModels\\AddEditClientViewModel.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAUwDgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:25:38.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ValidableBindableBase.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\ValidableBindableBase.cs",
-              "RelativeDocumentMoniker": "ValidableBindableBase.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\ValidableBindableBase.cs",
-              "RelativeToolTip": "ValidableBindableBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:24:15.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "RelayCommand.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\RelayCommand.cs",
-              "RelativeToolTip": "RelayCommand.cs",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:10:27.323Z"
+              "WhenOpened": "2024-12-11T18:55:59.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 10,
               "Title": "BindableBase.cs",
               "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\BindableBase.cs",
               "RelativeDocumentMoniker": "BindableBase.cs",
               "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\BindableBase.cs",
               "RelativeToolTip": "BindableBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:24:57.493Z"
+              "WhenOpened": "2024-12-11T18:55:02.574Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RequestView.xaml.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\RequestView.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\RequestView.xaml.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\RequestView.xaml.cs",
-              "RelativeToolTip": "Views\\RequestView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T19:54:42.071Z"
+              "WhenOpened": "2024-12-11T18:54:59.175Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ClientView.xaml.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\ClientView.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\ClientView.xaml.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\ClientView.xaml.cs",
-              "RelativeToolTip": "Views\\ClientView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T19:54:35.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 12,
               "Title": "AddRequestView.xaml.cs",
               "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\AddRequestView.xaml.cs",
               "RelativeDocumentMoniker": "Views\\AddRequestView.xaml.cs",
               "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\AddRequestView.xaml.cs",
               "RelativeToolTip": "Views\\AddRequestView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T19:54:23.78Z"
+              "WhenOpened": "2024-12-11T18:51:34.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 13,
               "Title": "AddEditClientView.xaml.cs",
               "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\AddEditClientView.xaml.cs",
               "RelativeDocumentMoniker": "Views\\AddEditClientView.xaml.cs",
               "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\AddEditClientView.xaml.cs",
               "RelativeToolTip": "Views\\AddEditClientView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T19:54:09.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ValidableClient.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\VeiwModels\\ValidableClient.cs",
-              "RelativeDocumentMoniker": "VeiwModels\\ValidableClient.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\VeiwModels\\ValidableClient.cs",
-              "RelativeToolTip": "VeiwModels\\ValidableClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:22:36.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RequestRepository.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Services\\RequestRepository.cs",
-              "RelativeDocumentMoniker": "Services\\RequestRepository.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Services\\RequestRepository.cs",
-              "RelativeToolTip": "Services\\RequestRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T10:07:14.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IClientRepository.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Services\\IClientRepository.cs",
-              "RelativeDocumentMoniker": "Services\\IClientRepository.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Services\\IClientRepository.cs",
-              "RelativeToolTip": "Services\\IClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:43:44.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ClientRepository.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Services\\ClientRepository.cs",
-              "RelativeDocumentMoniker": "Services\\ClientRepository.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Services\\ClientRepository.cs",
-              "RelativeToolTip": "Services\\ClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:42:11.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "DemoRequestContext.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Models\\DemoRequestContext.cs",
-              "RelativeDocumentMoniker": "Models\\DemoRequestContext.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Models\\DemoRequestContext.cs",
-              "RelativeToolTip": "Models\\DemoRequestContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAABBwBEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:40:11.317Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Models\\Manager.cs",
-              "RelativeDocumentMoniker": "Models\\Manager.cs",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Models\\Manager.cs",
-              "RelativeToolTip": "Models\\Manager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T09:39:23.558Z"
+              "WhenOpened": "2024-12-11T18:39:50.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "pz19.csproj",
-              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\pz19.csproj",
-              "RelativeDocumentMoniker": "pz19.csproj",
-              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\pz19.csproj",
-              "RelativeToolTip": "pz19.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-10T09:34:39.379Z"
+              "DocumentIndex": 14,
+              "Title": "ClientView.xaml.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\ClientView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ClientView.xaml.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\ClientView.xaml.cs",
+              "RelativeToolTip": "Views\\ClientView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:41:48.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RequestView.xaml.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\RequestView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RequestView.xaml.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041C\u0414\u041A 01.01 \u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u044B\u0445 \u043C\u043E\u0434\u0443\u043B\u0435\u0439\\\u0414\u042D\\pz19\\Views\\RequestView.xaml.cs",
+              "RelativeToolTip": "Views\\RequestView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:39:57.867Z",
+              "EditorCaption": ""
             }
           ]
         },

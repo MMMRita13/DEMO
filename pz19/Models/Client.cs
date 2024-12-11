@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace pz19.Models;
 
+
 public partial class Client
 {
     public Guid ClientId { get; set; }

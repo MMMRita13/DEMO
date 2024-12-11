@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace pz19.Views
 {
     /// <summary>
-    /// Логика взаимодействия для ClientViewModel.xaml
+    /// Логика взаимодействия для ClientView.xaml
     /// </summary>
     public partial class ClientView : UserControl
     {

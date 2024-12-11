@@ -1,4 +1,4 @@
-﻿using Azure.Core;
+﻿
 using Microsoft.EntityFrameworkCore;
 using pz19.Models;
 using System;
@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
-using Request = pz19.Models.Request;
 
 namespace pz19.Services
 {

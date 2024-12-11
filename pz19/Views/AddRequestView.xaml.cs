@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace pz19.Views
 {
     /// <summary>
-    /// Логика взаимодействия для AddRequest.xaml
+    /// Логика взаимодействия для AddRequestView.xaml
     /// </summary>
-    public partial class AddRequest : UserControl
+    public partial class AddRequestView : UserControl
     {
-        public AddRequest()
+        public AddRequestView()
         {
             InitializeComponent();
         }

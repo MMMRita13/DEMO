@@ -8,7 +8,6 @@ using System.Windows.Controls;
 using System.Windows;
 
 using Unity;
-using pz_18.ViewModels;
 using pz19.ViewModels;
 using pz19.Models;
 
@@ -35,15 +34,15 @@ namespace pz19
             _requestViewModel = RepoContainer.Container.Resolve<RequestViewModel>();
 
 
-            _clientViewModel.PlaceOrderRequested += NavigateToOrder;
+            _clientViewModel.PlaceOrderRequested += NavigateToRequest;
 
-            _clientViewModel.AddCustomerRequested += NavigationToAddCustomer;
-            _clientViewModel.EditCustomerRequested += NavigationToEditCustomer;
+            _clientViewModel.AddCustomerRequested += NavigationToAddClient;
+            _clientViewModel.EditCustomerRequested += NavigationToEditClient;
 
-            _clientViewModel.GetAllOrdersByCustomerRequested += NavigateToOrders;
+            _clientViewModel.GetAllOrdersByCustomerRequested += NavigateToRequests;
 
-            _addRequestViewModel.Done += ReturnToCustomerList;
-            _requestViewModel.Done += ReturnToCustomerList;
+            _addRequestViewModel.Done += ReturnToClientList;
+            _requestViewModel.Done += ReturnToClientList;
 
             _addEditClientVewModel.Done += OnDone;
 
@@ -66,40 +65,40 @@ namespace pz19
         {
             switch (dest)
             {
-                case "orderPrep":
+                case "addRequest":
                     ClientBBViewModel = _requestViewModel;
                     _requestViewModel.SelectedClient = null;
-                    _ = _requestViewModel.LoadAllOrders();
+                    _ = _requestViewModel.LoadAllRequests();
                     break;
-                case "customers":
+                case "clients":
                 default:
-                    ClientBBViewModel = _clientBBViewModel;
+                    ClientBBViewModel = _clientViewModel;
                     break;
             }
         }
 
         private void OnDone()
         {
-            _ = _clientViewModel.LoadCustomers();
+            _ = _clientViewModel.LoadClients();
             ClientBBViewModel = _clientViewModel;
         }
 
         //открывать окно для редактирования клиента
-        private void NavigationToEditCustomer(Client client)
+        private void NavigationToEditClient(Client client)
         {
             _addEditClientVewModel.IsEditeMode = true;
             _addEditClientVewModel.SetClient(client);
             ClientBBViewModel = _addEditClientVewModel;
         }
 
-        private void NavigationToEditOrder(Client client)
+        private void NavigationToEditRequest(Client client)
         {
             _addEditClientVewModel.IsEditeMode = true;
             _addEditClientVewModel.SetClient(client);
             ClientBBViewModel = _addEditClientVewModel;
         }
 
-        private void NavigationToAddCustomer()
+        private void NavigationToAddClient()
         {
             _addEditClientVewModel.IsEditeMode = false;
             _addEditClientVewModel.SetClient(new Client
@@ -110,7 +109,7 @@ namespace pz19
         }
 
         //окно для оформления заказа
-        private void NavigateToOrder(Client? client)
+        private void NavigateToRequest(Client? client)
         {
             if (client == null)
             {
@@ -127,7 +126,7 @@ namespace pz19
             };
             ClientBBViewModel = _addRequestViewModel;
         }
-        private void NavigateToOrders(Client? client)
+        private void NavigateToRequests(Client? client)
         {
             if (client == null)
             {
@@ -135,11 +134,11 @@ namespace pz19
                 return;
             }
 
-            _requestViewModel.LoadOrders();
+            _requestViewModel.LoadRequests();
             _requestViewModel.SelectedClient = client;
             ClientBBViewModel = _requestViewModel;
         }
-        private void ReturnToCustomerList()
+        private void ReturnToClientList()
         {
             ClientBBViewModel = _clientViewModel;
         }

@@ -46,5 +46,5 @@
             <Button Content="Сохранить" Command="{Binding SaveOrderCommand}" Width="100" Margin="5"/>
             <Button Content="Отмена" Command="{Binding CancelCommand}" Width="100" Margin="5"/>
         </StackPanel>
-        </Grid>
+    </Grid>
 </UserControl>
