@@ -18,7 +18,7 @@
                 <Trigger Property="Validation.HasError" Value="True">
                     <Setter Property="ToolTip"
                             Value="{Binding RelativeSource={x:Static RelativeSource.Self}, 
-                                    Path=(Validation.Errors).CurrentItem.ErrorContent}" />
+                                    Path=(Validation.Errors).ClientItem.ErrorContent}" />
                 </Trigger>
             </Style.Triggers>
         </Style>

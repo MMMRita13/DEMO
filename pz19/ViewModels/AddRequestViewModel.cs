@@ -24,8 +24,7 @@ namespace pz19.ViewModels
                 StartDate = DateTime.Now,
                 CompletionDate = DateTime.Now.AddDays(1)
             };
-
-            SaveOrderCommand = new RelayCommand(OnSaveOrder);
+            SaveRequestCommand = new RelayCommand(OnSaveRequest);
             CancelCommand = new RelayCommand(OnCancel);
 
             LoadOrderStatuses();
@@ -39,29 +38,29 @@ namespace pz19.ViewModels
             set => SetProperty(ref _order, value);
         }
 
-        private Client? _selectedCustomer;
+        private Client? _selectedClient;
 
-        public Client? SelectedCustomer
+        public Client? SelectedClient
         {
-            get => _selectedCustomer;
+            get => _selectedClient;
             set
             {
-                SetProperty(ref _selectedCustomer, value);
-                Request.ClientId = value?.ClientId ?? Guid.Empty;
+                SetProperty(ref _selectedClient, value);
+                Request.ClientId = value?.ClientId ?? 0;
             }
         }
 
-        public ObservableCollection<Client> Customers { get; } = new();
+        public ObservableCollection<Client> Clients { get; } = new();
         public ObservableCollection<StatusRequest> StatusRequests { get; } = new();
 
-        private StatusRequest? _selectedOrderStatus;
+        private StatusRequest? _selectedRequestStatus;
 
-        public StatusRequest? SelectedOrderStatus
+        public StatusRequest? SelectedRequestStatus
         {
-            get => _selectedOrderStatus;
+            get => _selectedRequestStatus;
             set
             {
-                SetProperty(ref _selectedOrderStatus, value);
+                SetProperty(ref _selectedRequestStatus, value);
                 Request.StatusRequest = value?.StatusRequestsId ?? 0;
             }
         }
@@ -76,10 +75,10 @@ namespace pz19.ViewModels
             }
         }
 
-        public RelayCommand SaveOrderCommand { get; }
+        public RelayCommand SaveRequestCommand { get; }
         public RelayCommand CancelCommand { get; private set; }
 
-        private async void OnSaveOrder()
+        private async void OnSaveRequest()
         {
             await _orderRepository.AddRequestAsync(Request);
             Done?.Invoke();

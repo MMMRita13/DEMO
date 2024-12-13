@@ -51,7 +51,7 @@
             Grid.Column="1"/>
         </Grid>
         <Grid x:Name="ContentGrid" Grid.Row="1">
-            <ContentControl Content="{Binding CurrentViewModel}"/>
+            <ContentControl Content="{Binding ClientBBViewModel}"/>
         </Grid>
     </Grid>
 </Window>

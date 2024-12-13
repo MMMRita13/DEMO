@@ -20,15 +20,15 @@ namespace pz19.ViewModels
             Clients = new ObservableCollection<Client>();
             LoadClients();
 
-            PlaceOrderCommand = new RelayCommand<Client>(OnPlaceOrder);
-            AddCustomerCommand = new RelayCommand(OnAddCustomer);
-            EditCustomerCommand = new RelayCommand<Client>(OnEditCustomer);
+            PlaceRequestCommand = new RelayCommand<Client>(OnPlaceRequest);
+            AddClientCommand = new RelayCommand(OnAddClient);
+            EditClientCommand = new RelayCommand<Client>(OnEditClient);
             ClearSearchInput = new RelayCommand(OnClearSearch);
 
 
-            GetAllOrdersByCustomerCommand = new RelayCommand<Client>(OnGetAllOrdersByCustomer);
+            GetAllRequestsByClientCommand = new RelayCommand<Client>(OnGetAllRequestsByClient);
 
-            LoadCustomersCommand = new RelayCommand(async () => await LoadClients());
+            LoadClientCommand = new RelayCommand(async () => await LoadClients());
         }
 
         private ObservableCollection<Client>? _clients;
@@ -52,11 +52,11 @@ namespace pz19.ViewModels
             set
             {
                 SetProperty(ref _searchInput, value);
-                FilterCustomersBuName(_searchInput);
+                FilterClientsBuName(_searchInput);
             }
         }
 
-        private void FilterCustomersBuName(string findText)
+        private void FilterClientsBuName(string findText)
         {
             if (string.IsNullOrEmpty(findText))
             {
@@ -71,42 +71,42 @@ namespace pz19.ViewModels
             }
         }
 
-        public RelayCommand<Client> PlaceOrderCommand { get; private set; }
-        public RelayCommand AddCustomerCommand { get; private set; }
-        public RelayCommand<Client> EditCustomerCommand { get; private set; }
+        public RelayCommand<Client> PlaceRequestCommand { get; private set; }
+        public RelayCommand AddClientCommand { get; private set; }
+        public RelayCommand<Client> EditClientCommand { get; private set; }
         public RelayCommand ClearSearchInput { get; private set; }
-        public RelayCommand LoadCustomersCommand { get; }
-        public RelayCommand<Client> GetAllOrdersByCustomerCommand { get; private set; }
-        public RelayCommand<Client> GetAllOrdersCommand { get; private set; }
+        public RelayCommand LoadClientCommand { get; }
+        public RelayCommand<Client> GetAllRequestsByClientCommand { get; private set; }
+        public RelayCommand<Client> GetAllRequestsCommand { get; private set; }
 
 
-        public event Action<Client> PlaceOrderRequested = delegate { };
-        public event Action AddCustomerRequested = delegate { };
-        public event Action<Client> EditCustomerRequested = delegate { };
-        public event Action<Client> GetAllOrdersByCustomerRequested = delegate { };
+        public event Action<Client> PlaceRequestRequested = delegate { };
+        public event Action AddClientRequested = delegate { };
+        public event Action<Client> EditClientRequested = delegate { };
+        public event Action<Client> GetAllRequestsByClientRequested = delegate { };
 
-        private void OnPlaceOrder(Client client)
+        private void OnPlaceRequest(Client client)
         {
-            PlaceOrderRequested(client);
+            PlaceRequestRequested(client);
         }
 
-        private void OnAddCustomer()
+        private void OnAddClient()
         {
-            AddCustomerRequested?.Invoke();
+            AddClientRequested?.Invoke();
         }
 
-        private void OnEditCustomer(Client client)
+        private void OnEditClient(Client client)
         {
-            EditCustomerRequested(client);
+            EditClientRequested(client);
         }
 
         private void OnClearSearch()
         {
             SearchInput = null;
         }
-        private void OnGetAllOrdersByCustomer(Client client)
+        private void OnGetAllRequestsByClient(Client client)
         {
-            GetAllOrdersByCustomerRequested(client);
+            GetAllRequestsByClientRequested(client);
         }
 
     }

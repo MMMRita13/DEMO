@@ -8,6 +8,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 
@@ -22,7 +23,7 @@ namespace pz19.ViewModels
 
             _repository = repository;
             Requests = new ObservableCollection<Request>();
-            LoadRequests();
+            LoadAllRequests();
             CloseCommand = new RelayCommand(Close);
         }
         private Client _selectedClient;
@@ -53,11 +54,14 @@ namespace pz19.ViewModels
 
         public async Task LoadRequests()
         {
-            var orders = await _repository.GetRequestsByClientAsync(SelectedClient.ClientId);
+            var requests = await _repository.GetRequestsByClientAsync(SelectedClient.ClientId);
             Requests.Clear();
-            foreach (var order in orders)
+
+
+            foreach (var request in requests)
             {
-                Requests.Add(order);
+                Requests.Add(request);
+
             }
         }
 
@@ -66,11 +70,11 @@ namespace pz19.ViewModels
 
             if (SelectedClient == null)
             {
-                var orders = await _repository.GetAllRequestsAsync();
+                var requests = await _repository.GetAllRequestsAsync();
                 Requests.Clear();
-                foreach (var order in orders)
+                foreach (var request in requests)
                 {
-                    Requests.Add(order);
+                    Requests.Add(request);
                 }
             }
         }

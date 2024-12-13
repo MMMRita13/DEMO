@@ -60,9 +60,5 @@ namespace pz19.Services
             return request;
         }
 
-        public Task<List<Request>> GetRequestsByClientAsync(Guid clientId)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

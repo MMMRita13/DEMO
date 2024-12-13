@@ -34,12 +34,12 @@ namespace pz19
             _requestViewModel = RepoContainer.Container.Resolve<RequestViewModel>();
 
 
-            _clientViewModel.PlaceOrderRequested += NavigateToRequest;
+            _clientViewModel.PlaceRequestRequested += NavigateToRequest;
 
-            _clientViewModel.AddCustomerRequested += NavigationToAddClient;
-            _clientViewModel.EditCustomerRequested += NavigationToEditClient;
+            _clientViewModel.AddClientRequested += NavigationToAddClient;
+            _clientViewModel.EditClientRequested += NavigationToEditClient;
 
-            _clientViewModel.GetAllOrdersByCustomerRequested += NavigateToRequests;
+            _clientViewModel.GetAllRequestsByClientRequested += NavigateToRequests;
 
             _addRequestViewModel.Done += ReturnToClientList;
             _requestViewModel.Done += ReturnToClientList;
@@ -66,9 +66,10 @@ namespace pz19
             switch (dest)
             {
                 case "addRequest":
-                    ClientBBViewModel = _requestViewModel;
+                    
                     _requestViewModel.SelectedClient = null;
-                    _ = _requestViewModel.LoadAllRequests();
+                    _requestViewModel.LoadAllRequests();
+                    ClientBBViewModel = _requestViewModel;
                     break;
                 case "clients":
                 default:
@@ -103,7 +104,8 @@ namespace pz19
             _addEditClientVewModel.IsEditeMode = false;
             _addEditClientVewModel.SetClient(new Client
             {
-                ClientId = Guid.NewGuid(),
+                
+                ClientId = BitConverter.ToInt32(Guid.NewGuid().ToByteArray(), 0),
             });
             ClientBBViewModel = _addEditClientVewModel;
         }
@@ -117,7 +119,7 @@ namespace pz19
                 return;
             }
 
-            _addRequestViewModel.SelectedCustomer = client;
+            _addRequestViewModel.SelectedClient = client;
             _addRequestViewModel.Request = new Request
             {
                 ClientId = client.ClientId,

@@ -10,7 +10,7 @@ namespace pz19.Services
     internal interface IRequestRepository
     {
         //получить список заказов конкретного клиента
-        Task<List<Request>> GetRequestsByClientAsync(Guid clientId);
+        Task<List<Request>> GetRequestsByClientAsync(int clientId);
         //получить список всех заказов в системе
         Task<List<Request>> GetAllRequestsAsync();
         //добавить заказ

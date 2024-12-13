@@ -19,7 +19,7 @@ namespace pz19.Services
             return client;
         }
 
-        public async Task DeleteClientAsync(Guid clientId)
+        public async Task DeleteClientAsync(int clientId)
         {
             var client = _context.Clients
                 .FirstOrDefault(x => x.ClientId == clientId);
@@ -30,7 +30,7 @@ namespace pz19.Services
             await _context.SaveChangesAsync();
         }
 
-        public Task<Client> GetClientByIdAsync(Guid clientId)
+        public Task<Client> GetClientByIdAsync(int clientId)
         {
             return _context.Clients.FirstOrDefaultAsync(x => x.ClientId == clientId);
         }

@@ -12,11 +12,11 @@ namespace pz19.Services
         //получать список всех пользователей
         Task<List<Client>> GetClientsAsync();
         //получать пользователя по id
-        Task<Client> GetClientByIdAsync(Guid clientId);
+        Task<Client> GetClientByIdAsync(int clientId);
         //обновлять пользователя
         Task<Client> UpdateClientAsync(Client client);
         //удалять пользователя
-        Task DeleteClientAsync(Guid clientId);
+        Task DeleteClientAsync(int clientId);
         //создавать пользователя
         Task<Client> AddClientAsync(Client client);
         

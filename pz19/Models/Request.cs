@@ -21,7 +21,7 @@ public partial class Request
 
     public int MasterId { get; set; }
 
-    public Guid ClientId { get; set; }
+    public int ClientId { get; set; }
 
     public virtual Client Client { get; set; } = null!;
 

@@ -6,7 +6,7 @@ namespace pz19.Models;
 
 public partial class Client
 {
-    public Guid ClientId { get; set; }
+    public int ClientId { get; set; }
 
     public string Fio { get; set; } = null!;
 
