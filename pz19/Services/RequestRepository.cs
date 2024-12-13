@@ -10,10 +10,9 @@ using System.Transactions;
 
 namespace pz19.Services
 {
-    internal class RequestRepository :IRequestRepository
+    public class RequestRepository :IRequestRepository
     {
-        private readonly DemoRequestContext _context 
-            = new DemoRequestContext();
+        private readonly DemoRequestContext _context = new DemoRequestContext();
 
         public async Task<Request> AddRequestAsync(Request request)
         {
@@ -29,16 +28,16 @@ namespace pz19.Services
                 var request = _context.Requests.Include("(RequestItems")
                     .Include("(RequestItems.(RequestItemsOptions")
                     .FirstOrDefault(o => o.RequestId == requestId); 
-
-                
-                
                 await _context.SaveChangesAsync();
                 scope.Complete();
             }
         }
 
-        public Task<List<Request>> GetAllRequestsAsync()=> _context.Requests.ToListAsync();
-        
+        public async Task<List<Request>> GetAllRequestsAsync()
+        {
+           
+            return await _context.Requests.ToListAsync();
+        }
 
         public Task<List<HomeTechType>> GetAllHomeTechTypeAsync()=> _context.HomeTechTypes.ToListAsync();
 

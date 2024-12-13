@@ -15,7 +15,7 @@ public partial class Request
 
     public int StatusRequest { get; set; }
 
-    public DateTime CompletionDate { get; set; }
+    public DateOnly? CompletionDate { get; set; }
 
     public string RepairParts { get; set; } = null!;
 
@@ -34,6 +34,4 @@ public partial class Request
     public virtual HomeTechModel Model { get; set; } = null!;
 
     public virtual StatusRequest StatusRequestNavigation { get; set; } = null!;
-
-
 }

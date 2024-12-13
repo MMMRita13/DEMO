@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Release\net8.0-windows\
+D:\dem\pz19\obj\Release\net8.0-windows\
 pz19
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\App.xaml
+D:\dem\pz19\App.xaml
 5-2015939542
 
-381372368730
-230313577427
+37-1802084590
+2292097395519
 MainWindow.xaml;Views\AddEditClientView.xaml;Views\AddRequestView.xaml;Views\ClientView.xaml;Views\RequestView.xaml;
 
-False
+True
 

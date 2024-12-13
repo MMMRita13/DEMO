@@ -53,7 +53,7 @@ namespace pz19.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/pz19;component/views/addrequestview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/pz19;V1.0.0.0;component/views/addrequestview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\AddRequestView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace pz19.Services
 {
-    internal interface IRequestRepository
+    public interface IRequestRepository
     {
         //получить список заказов конкретного клиента
         Task<List<Request>> GetRequestsByClientAsync(int clientId);

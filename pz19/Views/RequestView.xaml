@@ -3,8 +3,8 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:pz19.Views"
-      mc:Ignorable="d" 
+      xmlns:local="clr-namespace:pz19.Views" xmlns:viewmodels="clr-namespace:pz19.ViewModels" xmlns:i="http://schemas.microsoft.com/xaml/behaviors" d:DataContext="{d:DesignInstance Type=viewmodels:RequestViewModel}"
+             mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800">
 
     <Grid Margin="10">
@@ -23,7 +23,7 @@
                 <DataGridTextColumn Header="ID" Binding="{Binding RequestId}" />
                 <DataGridTextColumn Header="Дата заказа" Binding="{Binding StartDate, StringFormat={}{0:dd.MM.yyyy}}" />
                 <DataGridTextColumn Header="Дата доставки заказа" Binding="{Binding CompletionDate , StringFormat={}{0:dd.MM.yyyy}}" />
-                <DataGridTextColumn Header="Статус" Binding="{Binding StatusRequest.Nname}" />
+                <DataGridTextColumn Header="Статус" Binding="{Binding StatusRequestNavigation.Nname}" />
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

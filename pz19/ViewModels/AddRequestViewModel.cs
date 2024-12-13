@@ -22,7 +22,7 @@ namespace pz19.ViewModels
             Request = new Request
             {
                 StartDate = DateTime.Now,
-                CompletionDate = DateTime.Now.AddDays(1)
+                CompletionDate = DateOnly.FromDateTime(DateTime.Now)
             };
             SaveRequestCommand = new RelayCommand(OnSaveRequest);
             CancelCommand = new RelayCommand(OnCancel);

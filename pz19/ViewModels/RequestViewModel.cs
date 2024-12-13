@@ -1,5 +1,4 @@
-﻿
-using pz19;
+﻿using pz19;
 using pz19.Models;
 using pz19.Services;
 using System;
@@ -12,18 +11,17 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 
-
 namespace pz19.ViewModels
 {
     class RequestViewModel: BindableBase
     {
         private IRequestRepository _repository;
-        public RequestViewModel(IRequestRepository repository)
+        public RequestViewModel(RequestRepository repository)
         {
-
             _repository = repository;
             Requests = new ObservableCollection<Request>();
             LoadAllRequests();
+            PlaceRequestedCommands = new RelayCommand<Request>(OnPlaceRequest);
             CloseCommand = new RelayCommand(Close);
         }
         private Client _selectedClient;
@@ -36,8 +34,8 @@ namespace pz19.ViewModels
                 SetProperty(ref _selectedClient, value);
             }
         }
-        private ObservableCollection<Request> _requests;
-        public ObservableCollection<Request> Requests
+        private ObservableCollection<Request>? _requests;
+        public ObservableCollection<Request>? Requests
         {
             get => _requests;
             set => SetProperty(ref _requests, value);
@@ -55,33 +53,40 @@ namespace pz19.ViewModels
         public async Task LoadRequests()
         {
             var requests = await _repository.GetRequestsByClientAsync(SelectedClient.ClientId);
-            Requests.Clear();
-
 
             foreach (var request in requests)
             {
                 Requests.Add(request);
-
             }
         }
 
-        public async Task LoadAllRequests()
+        private List<Request>? _listr;
+
+        public async void LoadAllRequests()
         {
-
-            if (SelectedClient == null)
-            {
-                var requests = await _repository.GetAllRequestsAsync();
-                Requests.Clear();
-                foreach (var request in requests)
-                {
-                    Requests.Add(request);
-                }
-            }
+            _listr = await _repository.GetAllRequestsAsync();
+            Requests = new ObservableCollection<Request>(_listr);
+            //if (SelectedClient == null)
+            //{
+                
+                //var requests = await _repository.GetAllRequestsAsync();
+                //Requests1.Clear();
+                //foreach (var request in requests)
+                //{
+                //    Requests1.Add(request);
+                //}
+            //}
         }
 
+        public RelayCommand<Request> PlaceRequestedCommands { get; private set; }
         public event Action<Request> PlaceRequested = delegate { };
 
-        private void OnPlace(Request request)
+        public void PlaceRequestedCommand(Request request)
+        {
+            PlaceRequested(request);
+        }
+
+        private void OnPlaceRequest(Request request)
         {
             PlaceRequested(request);
         }

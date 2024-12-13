@@ -31,6 +31,7 @@ namespace pz19
             _clientViewModel = RepoContainer.Container.Resolve<ClientViewModel>();
             _addEditClientVewModel = RepoContainer.Container.Resolve<AddEditClientViewModel>();
             _addRequestViewModel = RepoContainer.Container.Resolve<AddRequestViewModel>();
+//            _requestViewModel = new RequestViewModel(_requestRepository);
             _requestViewModel = RepoContainer.Container.Resolve<RequestViewModel>();
 
 
@@ -66,9 +67,8 @@ namespace pz19
             switch (dest)
             {
                 case "addRequest":
-                    
-                    _requestViewModel.SelectedClient = null;
-                    _requestViewModel.LoadAllRequests();
+                    //_requestViewModel.SelectedClient = null;
+                    //_requestViewModel.LoadAllRequests();
                     ClientBBViewModel = _requestViewModel;
                     break;
                 case "clients":
@@ -124,7 +124,7 @@ namespace pz19
             {
                 ClientId = client.ClientId,
                 StartDate = DateTime.Now,
-                CompletionDate = DateTime.Now.AddDays(1)
+                CompletionDate = DateOnly.FromDateTime(DateTime.Now),
             };
             ClientBBViewModel = _addRequestViewModel;
         }
@@ -136,7 +136,7 @@ namespace pz19
                 return;
             }
 
-            _requestViewModel.LoadRequests();
+            //_requestViewModel.LoadRequests();
             _requestViewModel.SelectedClient = client;
             ClientBBViewModel = _requestViewModel;
         }

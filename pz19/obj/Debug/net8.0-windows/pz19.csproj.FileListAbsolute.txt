@@ -1,137 +1,158 @@
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19.csproj.AssemblyReference.cache
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\Views\AddEditClientView.g.cs
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\Views\AddRequestView.g.cs
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\Views\ClientView.g.cs
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\Views\RequestView.g.cs
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\App.g.cs
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19_MarkupCompile.cache
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19_MarkupCompile.lref
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pz19.exe
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pz19.deps.json
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pz19.runtimeconfig.json
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pz19.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pz19.pdb
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Azure.Core.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Azure.Identity.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Humanizer.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\System.ClientModel.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\System.Composition.Convention.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\System.Memory.Data.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Unity.Abstractions.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\Unity.Container.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\MainWindow.g.cs
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\MainWindow.baml
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\Views\AddEditClientView.baml
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\Views\AddRequestView.baml
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\Views\ClientView.baml
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\Views\RequestView.baml
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19.g.resources
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19.GeneratedMSBuildEditorConfig.editorconfig
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19.AssemblyInfoInputs.cache
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19.AssemblyInfo.cs
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19.csproj.CoreCompileInputs.cache
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19.csproj.Up2Date
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\refint\pz19.dll
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19.pdb
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\pz19.genruntimeconfig.cache
-E:\4 курс\МДК 01.01 Разработка программных модулей\ДЭ\pz19\obj\Debug\net8.0-windows\ref\pz19.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pz19.exe
+D:\dem\pz19\bin\Debug\net8.0-windows\pz19.deps.json
+D:\dem\pz19\bin\Debug\net8.0-windows\pz19.runtimeconfig.json
+D:\dem\pz19\bin\Debug\net8.0-windows\pz19.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pz19.pdb
+D:\dem\pz19\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Humanizer.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19.csproj.AssemblyReference.cache
+D:\dem\pz19\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\dem\pz19\obj\Debug\net8.0-windows\App.g.cs
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19_MarkupCompile.cache
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19_MarkupCompile.lref
+D:\dem\pz19\obj\Debug\net8.0-windows\MainWindow.baml
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19.g.resources
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19.GeneratedMSBuildEditorConfig.editorconfig
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19.AssemblyInfoInputs.cache
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19.AssemblyInfo.cs
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19.csproj.CoreCompileInputs.cache
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19.csproj.Up2Date
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19.dll
+D:\dem\pz19\obj\Debug\net8.0-windows\refint\pz19.dll
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19.pdb
+D:\dem\pz19\obj\Debug\net8.0-windows\pz19.genruntimeconfig.cache
+D:\dem\pz19\obj\Debug\net8.0-windows\ref\pz19.dll
+D:\dem\pz19\obj\Debug\net8.0-windows\Views\AddEditClientView.g.cs
+D:\dem\pz19\obj\Debug\net8.0-windows\Views\AddRequestView.g.cs
+D:\dem\pz19\obj\Debug\net8.0-windows\Views\RequestView.g.cs
+D:\dem\pz19\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\dem\pz19\obj\Debug\net8.0-windows\Views\ClientView.g.cs
+D:\dem\pz19\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Unity.Abstractions.dll
+D:\dem\pz19\bin\Debug\net8.0-windows\Unity.Container.dll
+D:\dem\pz19\obj\Debug\net8.0-windows\Views\AddEditClientView.baml
+D:\dem\pz19\obj\Debug\net8.0-windows\Views\AddRequestView.baml
+D:\dem\pz19\obj\Debug\net8.0-windows\Views\ClientView.baml
+D:\dem\pz19\obj\Debug\net8.0-windows\Views\RequestView.baml
