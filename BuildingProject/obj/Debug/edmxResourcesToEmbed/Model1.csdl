@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ConstructionProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Materials">
+    <Key>
+      <PropertyRef Name="ID_Material" />
+    </Key>
+    <Property Name="ID_Material" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="UnitPrice" Type="Int32" Nullable="false" />
+    <Property Name="QuantityStorage" Type="Int32" Nullable="false" />
+    <Property Name="UnitOfMeasurement" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Сategory" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Providers" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <NavigationProperty Name="Providers1" Relationship="Self.FK__Materials__Provi__66603565" FromRole="Materials" ToRole="Providers" />
+    <NavigationProperty Name="UnitOfMeasurement1" Relationship="Self.FK__Materials__UnitO__6477ECF3" FromRole="Materials" ToRole="UnitOfMeasurement" />
+    <NavigationProperty Name="Сategory1" Relationship="Self.FK__Materials__Сateg__656C112C" FromRole="Materials" ToRole="Сategory" />
+    <NavigationProperty Name="Project" Relationship="Self.FK__Project__Materia__6C190EBB" FromRole="Materials" ToRole="Project" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="ID_Project" />
+    </Key>
+    <Property Name="ID_Project" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Nname" Type="String" MaxLength="50" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Supervisor" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Materials" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <NavigationProperty Name="Materials1" Relationship="Self.FK__Project__Materia__6C190EBB" FromRole="Project" ToRole="Materials" />
+    <NavigationProperty Name="Supervisors" Relationship="Self.FK__Project__Supervi__6B24EA82" FromRole="Project" ToRole="Supervisors" />
+  </EntityType>
+  <EntityType Name="Providers">
+    <Key>
+      <PropertyRef Name="ID_Providers" />
+    </Key>
+    <Property Name="ID_Providers" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Nname" Type="String" MaxLength="70" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Telephone" Type="String" MaxLength="12" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Adress" Type="String" MaxLength="70" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Materials" Relationship="Self.FK__Materials__Provi__66603565" FromRole="Providers" ToRole="Materials" />
+  </EntityType>
+  <EntityType Name="Supervisors">
+    <Key>
+      <PropertyRef Name="ID_Supervisor" />
+    </Key>
+    <Property Name="ID_Supervisor" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="35" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="C_Name" Type="String" MaxLength="35" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="35" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Project" Relationship="Self.FK__Project__Supervi__6B24EA82" FromRole="Supervisors" ToRole="Project" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="UnitOfMeasurement">
+    <Key>
+      <PropertyRef Name="ID_UnitOfMeasurement" />
+    </Key>
+    <Property Name="ID_UnitOfMeasurement" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Nname" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Materials" Relationship="Self.FK__Materials__UnitO__6477ECF3" FromRole="UnitOfMeasurement" ToRole="Materials" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID_Users" />
+    </Key>
+    <Property Name="ID_Users" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Role_" Type="String" MaxLength="35" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Llogin" Type="String" MaxLength="35" FixedLength="true" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Сategory">
+    <Key>
+      <PropertyRef Name="ID_Сategory" />
+    </Key>
+    <Property Name="ID_Сategory" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Nname" Type="String" MaxLength="70" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Materials" Relationship="Self.FK__Materials__Сateg__656C112C" FromRole="Сategory" ToRole="Materials" />
+  </EntityType>
+  <Association Name="FK__Materials__Provi__66603565">
+    <End Role="Providers" Type="Self.Providers" Multiplicity="1" />
+    <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Providers">
+        <PropertyRef Name="ID_Providers" />
+      </Principal>
+      <Dependent Role="Materials">
+        <PropertyRef Name="Providers" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Materials__UnitO__6477ECF3">
+    <End Role="UnitOfMeasurement" Type="Self.UnitOfMeasurement" Multiplicity="1" />
+    <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UnitOfMeasurement">
+        <PropertyRef Name="ID_UnitOfMeasurement" />
+      </Principal>
+      <Dependent Role="Materials">
+        <PropertyRef Name="UnitOfMeasurement" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Materials__Сateg__656C112C">
+    <End Role="Сategory" Type="Self.Сategory" Multiplicity="1" />
+    <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сategory">
+        <PropertyRef Name="ID_Сategory" />
+      </Principal>
+      <Dependent Role="Materials">
+        <PropertyRef Name="Сategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Project__Materia__6C190EBB">
+    <End Role="Materials" Type="Self.Materials" Multiplicity="1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Materials">
+        <PropertyRef Name="ID_Material" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="Materials" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Project__Supervi__6B24EA82">
+    <End Role="Supervisors" Type="Self.Supervisors" Multiplicity="1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supervisors">
+        <PropertyRef Name="ID_Supervisor" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="Supervisor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ConstructionProjectEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Materials" EntityType="Self.Materials" />
+    <EntitySet Name="Project" EntityType="Self.Project" />
+    <EntitySet Name="Providers" EntityType="Self.Providers" />
+    <EntitySet Name="Supervisors" EntityType="Self.Supervisors" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="UnitOfMeasurement" EntityType="Self.UnitOfMeasurement" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <EntitySet Name="Сategory" EntityType="Self.Сategory" />
+    <AssociationSet Name="FK__Materials__Provi__66603565" Association="Self.FK__Materials__Provi__66603565">
+      <End Role="Providers" EntitySet="Providers" />
+      <End Role="Materials" EntitySet="Materials" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Materials__UnitO__6477ECF3" Association="Self.FK__Materials__UnitO__6477ECF3">
+      <End Role="UnitOfMeasurement" EntitySet="UnitOfMeasurement" />
+      <End Role="Materials" EntitySet="Materials" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Materials__Сateg__656C112C" Association="Self.FK__Materials__Сateg__656C112C">
+      <End Role="Сategory" EntitySet="Сategory" />
+      <End Role="Materials" EntitySet="Materials" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Project__Materia__6C190EBB" Association="Self.FK__Project__Materia__6C190EBB">
+      <End Role="Materials" EntitySet="Materials" />
+      <End Role="Project" EntitySet="Project" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Project__Supervi__6B24EA82" Association="Self.FK__Project__Supervi__6B24EA82">
+      <End Role="Supervisors" EntitySet="Supervisors" />
+      <End Role="Project" EntitySet="Project" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(ConstructionProjectModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(ConstructionProjectModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

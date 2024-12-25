@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ConstructionProjectModelContainer" CdmEntityContainer="ConstructionProjectEntities">
+    <EntitySetMapping Name="Materials">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Materials">
+        <MappingFragment StoreEntitySet="Materials">
+          <ScalarProperty Name="ID_Material" ColumnName="ID_Material" />
+          <ScalarProperty Name="Nname" ColumnName="Nname" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="QuantityStorage" ColumnName="QuantityStorage" />
+          <ScalarProperty Name="UnitOfMeasurement" ColumnName="UnitOfMeasurement" />
+          <ScalarProperty Name="Сategory" ColumnName="Сategory" />
+          <ScalarProperty Name="Providers" ColumnName="Providers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Project">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Project">
+        <MappingFragment StoreEntitySet="Project">
+          <ScalarProperty Name="ID_Project" ColumnName="ID_Project" />
+          <ScalarProperty Name="Nname" ColumnName="Nname" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Supervisor" ColumnName="Supervisor" />
+          <ScalarProperty Name="Materials" ColumnName="Materials" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Providers">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Providers">
+        <MappingFragment StoreEntitySet="Providers">
+          <ScalarProperty Name="ID_Providers" ColumnName="ID_Providers" />
+          <ScalarProperty Name="Nname" ColumnName="Nname" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Supervisors">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Supervisors">
+        <MappingFragment StoreEntitySet="Supervisors">
+          <ScalarProperty Name="ID_Supervisor" ColumnName="ID_Supervisor" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="C_Name" ColumnName="_Name" />
+          <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnitOfMeasurement">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.UnitOfMeasurement">
+        <MappingFragment StoreEntitySet="UnitOfMeasurement">
+          <ScalarProperty Name="ID_UnitOfMeasurement" ColumnName="ID_UnitOfMeasurement" />
+          <ScalarProperty Name="Nname" ColumnName="Nname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ID_Users" ColumnName="ID_Users" />
+          <ScalarProperty Name="Role_" ColumnName="Role_" />
+          <ScalarProperty Name="Pasword" ColumnName="Pasword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Сategory">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Сategory">
+        <MappingFragment StoreEntitySet="Сategory">
+          <ScalarProperty Name="ID_Сategory" ColumnName="ID_Сategory" />
+          <ScalarProperty Name="Nname" ColumnName="Nname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

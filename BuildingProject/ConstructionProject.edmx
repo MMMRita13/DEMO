@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище ConstructionProjectModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Materials">
+          <Key>
+            <PropertyRef Name="ID_Material" />
+          </Key>
+          <Property Name="ID_Material" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Nname" Type="varchar" MaxLength="40" Nullable="false" />
+          <Property Name="UnitPrice" Type="int" Nullable="false" />
+          <Property Name="QuantityStorage" Type="int" Nullable="false" />
+          <Property Name="UnitOfMeasurement" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Сategory" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Providers" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Project">
+          <Key>
+            <PropertyRef Name="ID_Project" />
+          </Key>
+          <Property Name="ID_Project" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Nname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="StartDate" Type="date" Nullable="false" />
+          <Property Name="EndDate" Type="date" Nullable="false" />
+          <Property Name="Supervisor" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Materials" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Providers">
+          <Key>
+            <PropertyRef Name="ID_Providers" />
+          </Key>
+          <Property Name="ID_Providers" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Nname" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="Telephone" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="Adress" Type="varchar" MaxLength="70" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Supervisors">
+          <Key>
+            <PropertyRef Name="ID_Supervisor" />
+          </Key>
+          <Property Name="ID_Supervisor" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Surname" Type="varchar" MaxLength="35" Nullable="false" />
+          <Property Name="_Name" Type="varchar" MaxLength="35" Nullable="false" />
+          <Property Name="Patronymic" Type="varchar" MaxLength="35" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UnitOfMeasurement">
+          <Key>
+            <PropertyRef Name="ID_UnitOfMeasurement" />
+          </Key>
+          <Property Name="ID_UnitOfMeasurement" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Nname" Type="varchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="ID_Users" />
+          </Key>
+          <Property Name="ID_Users" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Role_" Type="varchar" MaxLength="35" Nullable="false" />
+          <Property Name="Pasword" Type="varchar" MaxLength="35" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Сategory">
+          <Key>
+            <PropertyRef Name="ID_Сategory" />
+          </Key>
+          <Property Name="ID_Сategory" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Nname" Type="varchar" MaxLength="70" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Materials__Provi__3F466844">
+          <End Role="Providers" Type="Self.Providers" Multiplicity="1" />
+          <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Providers">
+              <PropertyRef Name="ID_Providers" />
+            </Principal>
+            <Dependent Role="Materials">
+              <PropertyRef Name="Providers" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Materials__UnitO__3D5E1FD2">
+          <End Role="UnitOfMeasurement" Type="Self.UnitOfMeasurement" Multiplicity="1" />
+          <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UnitOfMeasurement">
+              <PropertyRef Name="ID_UnitOfMeasurement" />
+            </Principal>
+            <Dependent Role="Materials">
+              <PropertyRef Name="UnitOfMeasurement" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Materials__Сateg__3E52440B">
+          <End Role="Сategory" Type="Self.Сategory" Multiplicity="1" />
+          <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Сategory">
+              <PropertyRef Name="ID_Сategory" />
+            </Principal>
+            <Dependent Role="Materials">
+              <PropertyRef Name="Сategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Project__Materia__44FF419A">
+          <End Role="Materials" Type="Self.Materials" Multiplicity="1" />
+          <End Role="Project" Type="Self.Project" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Materials">
+              <PropertyRef Name="ID_Material" />
+            </Principal>
+            <Dependent Role="Project">
+              <PropertyRef Name="Materials" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Project__Supervi__440B1D61">
+          <End Role="Supervisors" Type="Self.Supervisors" Multiplicity="1" />
+          <End Role="Project" Type="Self.Project" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Supervisors">
+              <PropertyRef Name="ID_Supervisor" />
+            </Principal>
+            <Dependent Role="Project">
+              <PropertyRef Name="Supervisor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище ConstructionProjectModelContainer">
+          <EntitySet Name="Materials" EntityType="Self.Materials" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Project" EntityType="Self.Project" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Providers" EntityType="Self.Providers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Supervisors" EntityType="Self.Supervisors" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UnitOfMeasurement" EntityType="Self.UnitOfMeasurement" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Сategory" EntityType="Self.Сategory" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Materials__Provi__3F466844" Association="Self.FK__Materials__Provi__3F466844">
+            <End Role="Providers" EntitySet="Providers" />
+            <End Role="Materials" EntitySet="Materials" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Materials__UnitO__3D5E1FD2" Association="Self.FK__Materials__UnitO__3D5E1FD2">
+            <End Role="UnitOfMeasurement" EntitySet="UnitOfMeasurement" />
+            <End Role="Materials" EntitySet="Materials" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Materials__Сateg__3E52440B" Association="Self.FK__Materials__Сateg__3E52440B">
+            <End Role="Сategory" EntitySet="Сategory" />
+            <End Role="Materials" EntitySet="Materials" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Project__Materia__44FF419A" Association="Self.FK__Project__Materia__44FF419A">
+            <End Role="Materials" EntitySet="Materials" />
+            <End Role="Project" EntitySet="Project" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Project__Supervi__440B1D61" Association="Self.FK__Project__Supervi__440B1D61">
+            <End Role="Supervisors" EntitySet="Supervisors" />
+            <End Role="Project" EntitySet="Project" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ConstructionProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Materials">
+          <Key>
+            <PropertyRef Name="ID_Material" />
+          </Key>
+          <Property Name="ID_Material" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Nname" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UnitPrice" Type="Int32" Nullable="false" />
+          <Property Name="QuantityStorage" Type="Int32" Nullable="false" />
+          <Property Name="UnitOfMeasurement" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Сategory" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Providers" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <NavigationProperty Name="Providers1" Relationship="Self.FK__Materials__Provi__3F466844" FromRole="Materials" ToRole="Providers" />
+          <NavigationProperty Name="UnitOfMeasurement1" Relationship="Self.FK__Materials__UnitO__3D5E1FD2" FromRole="Materials" ToRole="UnitOfMeasurement" />
+          <NavigationProperty Name="Сategory1" Relationship="Self.FK__Materials__Сateg__3E52440B" FromRole="Materials" ToRole="Сategory" />
+          <NavigationProperty Name="Project" Relationship="Self.FK__Project__Materia__44FF419A" FromRole="Materials" ToRole="Project" />
+        </EntityType>
+        <EntityType Name="Project">
+          <Key>
+            <PropertyRef Name="ID_Project" />
+          </Key>
+          <Property Name="ID_Project" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Nname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Supervisor" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Materials" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <NavigationProperty Name="Materials1" Relationship="Self.FK__Project__Materia__44FF419A" FromRole="Project" ToRole="Materials" />
+          <NavigationProperty Name="Supervisors" Relationship="Self.FK__Project__Supervi__440B1D61" FromRole="Project" ToRole="Supervisors" />
+        </EntityType>
+        <EntityType Name="Providers">
+          <Key>
+            <PropertyRef Name="ID_Providers" />
+          </Key>
+          <Property Name="ID_Providers" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Nname" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Telephone" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Adress" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Materials" Relationship="Self.FK__Materials__Provi__3F466844" FromRole="Providers" ToRole="Materials" />
+        </EntityType>
+        <EntityType Name="Supervisors">
+          <Key>
+            <PropertyRef Name="ID_Supervisor" />
+          </Key>
+          <Property Name="ID_Supervisor" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Surname" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="C_Name" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Patronymic" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Project" Relationship="Self.FK__Project__Supervi__440B1D61" FromRole="Supervisors" ToRole="Project" />
+        </EntityType>
+        <EntityType Name="UnitOfMeasurement">
+          <Key>
+            <PropertyRef Name="ID_UnitOfMeasurement" />
+          </Key>
+          <Property Name="ID_UnitOfMeasurement" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Nname" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Materials" Relationship="Self.FK__Materials__UnitO__3D5E1FD2" FromRole="UnitOfMeasurement" ToRole="Materials" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="ID_Users" />
+          </Key>
+          <Property Name="ID_Users" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Role_" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Pasword" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Сategory">
+          <Key>
+            <PropertyRef Name="ID_Сategory" />
+          </Key>
+          <Property Name="ID_Сategory" Type="Decimal" Precision="5" Scale="0" Nullable="false" />
+          <Property Name="Nname" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Materials" Relationship="Self.FK__Materials__Сateg__3E52440B" FromRole="Сategory" ToRole="Materials" />
+        </EntityType>
+        <Association Name="FK__Materials__Provi__3F466844">
+          <End Role="Providers" Type="Self.Providers" Multiplicity="1" />
+          <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Providers">
+              <PropertyRef Name="ID_Providers" />
+            </Principal>
+            <Dependent Role="Materials">
+              <PropertyRef Name="Providers" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Materials__UnitO__3D5E1FD2">
+          <End Role="UnitOfMeasurement" Type="Self.UnitOfMeasurement" Multiplicity="1" />
+          <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UnitOfMeasurement">
+              <PropertyRef Name="ID_UnitOfMeasurement" />
+            </Principal>
+            <Dependent Role="Materials">
+              <PropertyRef Name="UnitOfMeasurement" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Materials__Сateg__3E52440B">
+          <End Role="Сategory" Type="Self.Сategory" Multiplicity="1" />
+          <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Сategory">
+              <PropertyRef Name="ID_Сategory" />
+            </Principal>
+            <Dependent Role="Materials">
+              <PropertyRef Name="Сategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Project__Materia__44FF419A">
+          <End Role="Materials" Type="Self.Materials" Multiplicity="1" />
+          <End Role="Project" Type="Self.Project" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Materials">
+              <PropertyRef Name="ID_Material" />
+            </Principal>
+            <Dependent Role="Project">
+              <PropertyRef Name="Materials" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Project__Supervi__440B1D61">
+          <End Role="Supervisors" Type="Self.Supervisors" Multiplicity="1" />
+          <End Role="Project" Type="Self.Project" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Supervisors">
+              <PropertyRef Name="ID_Supervisor" />
+            </Principal>
+            <Dependent Role="Project">
+              <PropertyRef Name="Supervisor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ConstructionProjectEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Materials" EntityType="Self.Materials" />
+          <EntitySet Name="Project" EntityType="Self.Project" />
+          <EntitySet Name="Providers" EntityType="Self.Providers" />
+          <EntitySet Name="Supervisors" EntityType="Self.Supervisors" />
+          <EntitySet Name="UnitOfMeasurement" EntityType="Self.UnitOfMeasurement" />
+          <EntitySet Name="Users" EntityType="Self.Users" />
+          <EntitySet Name="Сategory" EntityType="Self.Сategory" />
+          <AssociationSet Name="FK__Materials__Provi__3F466844" Association="Self.FK__Materials__Provi__3F466844">
+            <End Role="Providers" EntitySet="Providers" />
+            <End Role="Materials" EntitySet="Materials" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Materials__UnitO__3D5E1FD2" Association="Self.FK__Materials__UnitO__3D5E1FD2">
+            <End Role="UnitOfMeasurement" EntitySet="UnitOfMeasurement" />
+            <End Role="Materials" EntitySet="Materials" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Materials__Сateg__3E52440B" Association="Self.FK__Materials__Сateg__3E52440B">
+            <End Role="Сategory" EntitySet="Сategory" />
+            <End Role="Materials" EntitySet="Materials" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Project__Materia__44FF419A" Association="Self.FK__Project__Materia__44FF419A">
+            <End Role="Materials" EntitySet="Materials" />
+            <End Role="Project" EntitySet="Project" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Project__Supervi__440B1D61" Association="Self.FK__Project__Supervi__440B1D61">
+            <End Role="Supervisors" EntitySet="Supervisors" />
+            <End Role="Project" EntitySet="Project" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище ConstructionProjectModelContainer" CdmEntityContainer="ConstructionProjectEntities">
+          <EntitySetMapping Name="Materials">
+            <EntityTypeMapping TypeName="ConstructionProjectModel.Materials">
+              <MappingFragment StoreEntitySet="Materials">
+                <ScalarProperty Name="ID_Material" ColumnName="ID_Material" />
+                <ScalarProperty Name="Nname" ColumnName="Nname" />
+                <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+                <ScalarProperty Name="QuantityStorage" ColumnName="QuantityStorage" />
+                <ScalarProperty Name="UnitOfMeasurement" ColumnName="UnitOfMeasurement" />
+                <ScalarProperty Name="Сategory" ColumnName="Сategory" />
+                <ScalarProperty Name="Providers" ColumnName="Providers" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Project">
+            <EntityTypeMapping TypeName="ConstructionProjectModel.Project">
+              <MappingFragment StoreEntitySet="Project">
+                <ScalarProperty Name="ID_Project" ColumnName="ID_Project" />
+                <ScalarProperty Name="Nname" ColumnName="Nname" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="Supervisor" ColumnName="Supervisor" />
+                <ScalarProperty Name="Materials" ColumnName="Materials" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Providers">
+            <EntityTypeMapping TypeName="ConstructionProjectModel.Providers">
+              <MappingFragment StoreEntitySet="Providers">
+                <ScalarProperty Name="ID_Providers" ColumnName="ID_Providers" />
+                <ScalarProperty Name="Nname" ColumnName="Nname" />
+                <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+                <ScalarProperty Name="Adress" ColumnName="Adress" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Supervisors">
+            <EntityTypeMapping TypeName="ConstructionProjectModel.Supervisors">
+              <MappingFragment StoreEntitySet="Supervisors">
+                <ScalarProperty Name="ID_Supervisor" ColumnName="ID_Supervisor" />
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="C_Name" ColumnName="_Name" />
+                <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UnitOfMeasurement">
+            <EntityTypeMapping TypeName="ConstructionProjectModel.UnitOfMeasurement">
+              <MappingFragment StoreEntitySet="UnitOfMeasurement">
+                <ScalarProperty Name="ID_UnitOfMeasurement" ColumnName="ID_UnitOfMeasurement" />
+                <ScalarProperty Name="Nname" ColumnName="Nname" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="ConstructionProjectModel.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="ID_Users" ColumnName="ID_Users" />
+                <ScalarProperty Name="Role_" ColumnName="Role_" />
+                <ScalarProperty Name="Pasword" ColumnName="Pasword" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Сategory">
+            <EntityTypeMapping TypeName="ConstructionProjectModel.Сategory">
+              <MappingFragment StoreEntitySet="Сategory">
+                <ScalarProperty Name="ID_Сategory" ColumnName="ID_Сategory" />
+                <ScalarProperty Name="Nname" ColumnName="Nname" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

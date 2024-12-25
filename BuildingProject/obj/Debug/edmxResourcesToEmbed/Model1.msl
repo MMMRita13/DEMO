@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ConstructionProjectModelContainer" CdmEntityContainer="ConstructionProjectEntities">
+    <EntitySetMapping Name="Materials">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Materials">
+        <MappingFragment StoreEntitySet="Materials">
+          <ScalarProperty Name="ID_Material" ColumnName="ID_Material" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="QuantityStorage" ColumnName="QuantityStorage" />
+          <ScalarProperty Name="UnitOfMeasurement" ColumnName="UnitOfMeasurement" />
+          <ScalarProperty Name="Сategory" ColumnName="Сategory" />
+          <ScalarProperty Name="Providers" ColumnName="Providers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Project">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Project">
+        <MappingFragment StoreEntitySet="Project">
+          <ScalarProperty Name="ID_Project" ColumnName="ID_Project" />
+          <ScalarProperty Name="Nname" ColumnName="Nname" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Supervisor" ColumnName="Supervisor" />
+          <ScalarProperty Name="Materials" ColumnName="Materials" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Providers">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Providers">
+        <MappingFragment StoreEntitySet="Providers">
+          <ScalarProperty Name="ID_Providers" ColumnName="ID_Providers" />
+          <ScalarProperty Name="Nname" ColumnName="Nname" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Supervisors">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Supervisors">
+        <MappingFragment StoreEntitySet="Supervisors">
+          <ScalarProperty Name="ID_Supervisor" ColumnName="ID_Supervisor" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="C_Name" ColumnName="_Name" />
+          <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnitOfMeasurement">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.UnitOfMeasurement">
+        <MappingFragment StoreEntitySet="UnitOfMeasurement">
+          <ScalarProperty Name="ID_UnitOfMeasurement" ColumnName="ID_UnitOfMeasurement" />
+          <ScalarProperty Name="Nname" ColumnName="Nname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ID_Users" ColumnName="ID_Users" />
+          <ScalarProperty Name="Role_" ColumnName="Role_" />
+          <ScalarProperty Name="Llogin" ColumnName="Llogin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Сategory">
+      <EntityTypeMapping TypeName="ConstructionProjectModel.Сategory">
+        <MappingFragment StoreEntitySet="Сategory">
+          <ScalarProperty Name="ID_Сategory" ColumnName="ID_Сategory" />
+          <ScalarProperty Name="Nname" ColumnName="Nname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Хранилище ConstructionProjectModel.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Хранилище ConstructionProjectModel.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Хранилище ConstructionProjectModel.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Хранилище ConstructionProjectModel.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ConstructionProjectModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Хранилище ConstructionProjectModel.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ConstructionProjectModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Хранилище ConstructionProjectModel.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Хранилище ConstructionProjectModel.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,117 @@
+﻿<Window x:Class="BuildingProject.Avtoriz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BuildingProject"
+        mc:Ignorable="d"
+        Title="" Height="472" Width="662" WindowStyle="None"
+        ResizeMode="NoResize" 
+        MouseLeftButtonDown="Window_MouseLeftButtonDown" 
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True">
+    <Border BorderThickness="5" Background="AliceBlue"  CornerRadius="20">
+
+        <Grid >
+            <Image Margin="-77,70,212,-86" Source="/Image/project.png" Stretch="Fill"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="5"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Авторизация" Foreground="DarkGray" FontSize="10" FontFamily="Montserrat" Grid.Column="0" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                    <Button x:Name="btnMinimaze" BorderThickness="0" Content="-" Foreground="White" FontSize="16" FontFamily="Montstreet" Cursor="Hand" Grid.Column="1" Click="btnMinimize_Click">
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#008cf0"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="White"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="18" Height="18" CornerRadius="9" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button x:Name="btnClose"  BorderThickness="0" Content="x" Foreground="White" FontSize="16" FontFamily="Montstreet" Cursor="Hand" Grid.Column="2" Click="btnClose_Click">
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#9e0025"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="White"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="18" Height="18" CornerRadius="9" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </Grid>
+                <StackPanel Width="250" Grid.Row="1" Orientation="Vertical" Margin="310,35,21,0">
+                    <TextBlock Text="Добро пожаловать!" FontSize="22" FontWeight="Medium" HorizontalAlignment="Center" FontFamily="Gill Sans Ultra Bold" TextAlignment="Center" Foreground="Black"/>
+
+                    <TextBlock Text="Пользователь" Foreground="#FF694A3D" FontSize="12" FontWeight="Medium" FontFamily="Montserrat" Margin="0,35,0,0"/>
+
+                    <TextBox x:Name="tbL" FontSize="16" FontWeight="Medium" FontFamily="Montserrat" Foreground="#FF694A3D" CaretBrush="LightGray" BorderBrush="#FF694A3D" BorderThickness="0,0,0,5"  Height="28" VerticalAlignment="Center" Margin="0,5,0,0" Padding="20,0,0,0" TextChanged="tbL_TextChanged">
+                        <TextBox.Background>
+                            <ImageBrush ImageSource="/Image/user.png" Stretch="Uniform"  AlignmentX="Left"/>
+                        </TextBox.Background>
+                    </TextBox>
+                    <TextBlock Text="Пароль" Foreground="#FF694A3D" FontSize="12" FontWeight="Medium" FontFamily="Montserrat" Margin="0,10,0,0"/>
+
+                    <PasswordBox x:Name="tbP" FontSize="16" FontWeight="Medium" FontFamily="Montserrat" Foreground="#FF694A3D" CaretBrush="LightGray" BorderBrush="#FF694A3D" BorderThickness="0,0,0,5"  Height="28" VerticalAlignment="Center" Margin="0,5,0,0" Padding="20,0,0,0">
+                        <PasswordBox.Background>
+                            <ImageBrush ImageSource="/Image/lock.png" Stretch="Uniform"  AlignmentX="Left"/>
+                        </PasswordBox.Background>
+                    </PasswordBox>
+                    <Button x:Name="btnOk"  BorderThickness="0" Content="Вход" Foreground="White" FontSize="16" FontFamily="Montstreet" Cursor="Hand" Grid.Column="2" Margin="0,50,0,0" Click="Ok_Click" Height="46">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#FF694A3D"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Foreground" Value="#FF694A3D"/>
+                                        <Setter Property="Background" Value="#FA695B5F"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="150" Height="40" CornerRadius="20" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Content="Отмена" 
+                Width="68" Click="Cancel_Click" Height="20" BorderThickness="0" Foreground="#FF694A3D" Background="Transparent"/>
+                </StackPanel>
+            </Grid>
+
+
+         
+        </Grid>
+    </Border>
+</Window>

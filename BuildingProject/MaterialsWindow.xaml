@@ -1,0 +1,115 @@
+﻿<Window x:Class="BuildingProject.MaterialsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BuildingProject"
+        mc:Ignorable="d"
+        Title="MaterialsWindow" Height="552" Width="880" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="5"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock  Foreground="DarkGray" FontSize="10" FontFamily="Montserrat" Grid.Column="0" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                <Button x:Name="btnMinimaze" BorderThickness="0" Content="-" Foreground="White" FontSize="16" FontFamily="Montstreet" Cursor="Hand" Grid.Column="1" Click="btnMinimize_Click">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#42aaff"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="White"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="18" Height="18" CornerRadius="9" Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button x:Name="btnClose"  BorderThickness="0" Content="x" Foreground="White" FontSize="16" FontFamily="Montstreet" Cursor="Hand" Grid.Column="2" Click="btnClose_Click">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#ff0000"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="White"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="18" Height="18" CornerRadius="9" Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </Grid>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="340,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Материалы" Height="42" Width="196" FontSize="22" FontFamily="Gill Sans Ultra Bold" Foreground="#FF694A3D" TextAlignment="Center"></TextBlock>
+        <Label VerticalAlignment="Top" HorizontalAlignment="Left" Content="Название материала" Margin="6,39,0,0"/>
+        <TextBox Name="NameMaterialTB" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,73,0,0" Width="103" TextChanged="NameProjectTB_TextChanged"/>
+
+        <Label VerticalAlignment="Top" HorizontalAlignment="Left" Content="Стоимость" Margin="159,39,0,0"/>
+        <TextBox Name="PriceTB" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="159,73,0,0" Width="103" TextChanged="DataStartTB_TextChanged"/>
+
+        <Label VerticalAlignment="Top" HorizontalAlignment="Left" Content="Количество хранения" Margin="312,39,0,0"/>
+        <TextBox Name="KolvoTB" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="312,73,0,0" Width="103" TextChanged="DataStopTB_TextChanged"/>
+
+        <Label VerticalAlignment="Top" HorizontalAlignment="Left" Content="Единица измерения" Margin="465,39,0,0"/>
+        <TextBox Name="EdinizTB" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="465,73,0,0" Width="103" TextChanged="SupervisorTB_TextChanged"/>
+
+        <Label VerticalAlignment="Top" HorizontalAlignment="Left" Content="Категория" Margin="618,39,0,0"/>
+        <TextBox Name="CategoryTB" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="618,73,0,0" Width="103" TextChanged="MaterialTB_TextChanged" />
+
+        <Label VerticalAlignment="Top" HorizontalAlignment="Left" Content="Руководитель" Margin="756,39,0,0"/>
+        <TextBox Name="SupervizorTB" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="764,73,0,0" Width="103" TextChanged="MaterialTB_TextChanged" />
+
+        <Button Content="Добавить проект" Margin="370,101,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="AddButton_Click" Width="120" Background="#FF7A5E53" Foreground="White" FontSize="12" FontFamily="Montstreet" Cursor="Hand" Height="25"  >
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#FF694A3D"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="#FF694A3D"/>
+                            <Setter Property="Background" Value="#FA695B5F"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Width="120" Height="30" CornerRadius="20" Background="{TemplateBinding Background}" Margin="0,2,0,-14">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="Удалить материал" HorizontalAlignment="Left" Margin="76,481,0,0" VerticalAlignment="Top" Width="123" Click="DeleteButton_Click" Height="21"/>
+        <DataGrid Name="DGMaterial"  VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,147,0,0" Width="782" AutoGenerateColumns="False" Height="293">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название материала" Binding="{Binding Nname}" Width="*"/>
+                <DataGridTextColumn Header="Стоимость" Binding="{Binding UnitPrice}" Width="*"/>
+                <DataGridTextColumn Header="Количество хранения" Binding="{Binding QuantityStorage}" Width="*"/>
+                <DataGridTextColumn Header="Единица измерения" Binding="{Binding UnitOfMeasurement}" Width="*"/>
+                <DataGridTextColumn Header="Категория" Binding="{Binding Сategory}" Width="*"/>
+                <DataGridTextColumn Header="Руководитель" Binding="{Binding Providers}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище ConstructionProjectModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Materials">
+    <Key>
+      <PropertyRef Name="ID_Material" />
+    </Key>
+    <Property Name="ID_Material" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Nname" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="UnitPrice" Type="int" Nullable="false" />
+    <Property Name="QuantityStorage" Type="int" Nullable="false" />
+    <Property Name="UnitOfMeasurement" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Сategory" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Providers" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="ID_Project" />
+    </Key>
+    <Property Name="ID_Project" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Nname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StartDate" Type="date" Nullable="false" />
+    <Property Name="EndDate" Type="date" Nullable="false" />
+    <Property Name="Supervisor" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Materials" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Providers">
+    <Key>
+      <PropertyRef Name="ID_Providers" />
+    </Key>
+    <Property Name="ID_Providers" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Nname" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="Telephone" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="Adress" Type="varchar" MaxLength="70" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Supervisors">
+    <Key>
+      <PropertyRef Name="ID_Supervisor" />
+    </Key>
+    <Property Name="ID_Supervisor" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Surname" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="_Name" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="Patronymic" Type="varchar" MaxLength="35" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UnitOfMeasurement">
+    <Key>
+      <PropertyRef Name="ID_UnitOfMeasurement" />
+    </Key>
+    <Property Name="ID_UnitOfMeasurement" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Nname" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID_Users" />
+    </Key>
+    <Property Name="ID_Users" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Role_" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="Pasword" Type="varchar" MaxLength="35" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Сategory">
+    <Key>
+      <PropertyRef Name="ID_Сategory" />
+    </Key>
+    <Property Name="ID_Сategory" Type="decimal" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="Nname" Type="varchar" MaxLength="70" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Materials__Provi__3F466844">
+    <End Role="Providers" Type="Self.Providers" Multiplicity="1" />
+    <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Providers">
+        <PropertyRef Name="ID_Providers" />
+      </Principal>
+      <Dependent Role="Materials">
+        <PropertyRef Name="Providers" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Materials__UnitO__3D5E1FD2">
+    <End Role="UnitOfMeasurement" Type="Self.UnitOfMeasurement" Multiplicity="1" />
+    <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UnitOfMeasurement">
+        <PropertyRef Name="ID_UnitOfMeasurement" />
+      </Principal>
+      <Dependent Role="Materials">
+        <PropertyRef Name="UnitOfMeasurement" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Materials__Сateg__3E52440B">
+    <End Role="Сategory" Type="Self.Сategory" Multiplicity="1" />
+    <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Сategory">
+        <PropertyRef Name="ID_Сategory" />
+      </Principal>
+      <Dependent Role="Materials">
+        <PropertyRef Name="Сategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Project__Materia__44FF419A">
+    <End Role="Materials" Type="Self.Materials" Multiplicity="1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Materials">
+        <PropertyRef Name="ID_Material" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="Materials" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Project__Supervi__440B1D61">
+    <End Role="Supervisors" Type="Self.Supervisors" Multiplicity="1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supervisors">
+        <PropertyRef Name="ID_Supervisor" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="Supervisor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище ConstructionProjectModelContainer">
+    <EntitySet Name="Materials" EntityType="Self.Materials" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Project" EntityType="Self.Project" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Providers" EntityType="Self.Providers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Supervisors" EntityType="Self.Supervisors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UnitOfMeasurement" EntityType="Self.UnitOfMeasurement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Сategory" EntityType="Self.Сategory" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Materials__Provi__3F466844" Association="Self.FK__Materials__Provi__3F466844">
+      <End Role="Providers" EntitySet="Providers" />
+      <End Role="Materials" EntitySet="Materials" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Materials__UnitO__3D5E1FD2" Association="Self.FK__Materials__UnitO__3D5E1FD2">
+      <End Role="UnitOfMeasurement" EntitySet="UnitOfMeasurement" />
+      <End Role="Materials" EntitySet="Materials" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Materials__Сateg__3E52440B" Association="Self.FK__Materials__Сateg__3E52440B">
+      <End Role="Сategory" EntitySet="Сategory" />
+      <End Role="Materials" EntitySet="Materials" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Project__Materia__44FF419A" Association="Self.FK__Project__Materia__44FF419A">
+      <End Role="Materials" EntitySet="Materials" />
+      <End Role="Project" EntitySet="Project" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Project__Supervi__440B1D61" Association="Self.FK__Project__Supervi__440B1D61">
+      <End Role="Supervisors" EntitySet="Supervisors" />
+      <End Role="Project" EntitySet="Project" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
