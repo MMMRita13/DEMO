@@ -1,0 +1,35 @@
+﻿<Window x:Class="demm1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:demm1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="487" Width="921">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Заявки">
+                <Grid>
+
+                    <DataGrid x:Name="RequestsGrid" AutoGenerateColumns="False" Margin="0,0,0,73"  >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="50"/>
+                            <DataGridTextColumn Header="Дата начала" Binding="{Binding startDate, StringFormat=\{0:dd.MM.yyyy\}}" Width="120"/>
+                            <DataGridTextColumn Header="Модель машины" Binding="{Binding carModel.Name}" Width="*"/>
+                            <DataGridTextColumn Header="Описание проблемы" Binding="{Binding problemDescryption}" Width="*"/>
+                            <DataGridTextColumn Header="Статус заявки" Binding="{Binding requestStatus.Name}" Width="*"/>
+                            <DataGridTextColumn Header="Дата окончания" Binding="{Binding completionDate}" Width="100"/>
+                            <DataGridTextColumn Header="Детали" Binding="{Binding repairParts}" Width="100"/>
+                            <DataGridTextColumn Header="Мастер" Binding="{Binding User.FIO}" Width="100"/>
+                            <DataGridTextColumn Header="Клиент" Binding="{Binding User1.FIO}" Width="100"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button x:Name="AddBn" Content="Редактирование" HorizontalAlignment="Left" Margin="468,383,0,0" VerticalAlignment="Top" Height="21" Width="116" Click="EditButton_Click"/>
+                    <Button x:Name="SaveBn" Content="Отчет" HorizontalAlignment="Left" Margin="614,383,0,0" VerticalAlignment="Top" Width="100" Click="SaveButton_Click"/>
+                    <Button x:Name="DelBn" Content="Удаление" HorizontalAlignment="Left" Margin="743,381,0,0" VerticalAlignment="Top" Height="18" Width="93" Click="DelButton_Click"/>
+                    <TextBox x:Name="Search" HorizontalAlignment="Left" Margin="30,397,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134" Height="20" TextChanged="Search_TextChanged"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

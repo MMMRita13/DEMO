@@ -1,0 +1,268 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\demka\\demm1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|d:\\demka\\demm1\\editwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:editwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|d:\\demka\\demm1\\addrequest.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:addrequest.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|D:\\demka\\demm1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|d:\\demka\\demm1\\mainwindow2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:mainwindow2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|D:\\demka\\demm1\\avtoriz.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:avtoriz.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|D:\\demka\\demm1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|d:\\demka\\demm1\\mainwindow2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:mainwindow2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|d:\\demka\\demm1\\editwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:editwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|d:\\demka\\demm1\\addrequest.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:addrequest.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|D:\\demka\\demm1\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|d:\\demka\\demm1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|D:\\demka\\demm1\\avtoriz.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:avtoriz.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|D:\\demka\\demm1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4C0293CD-10E9-4639-BCCE-C046A1C6A809}|demm1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Avtoriz.xaml.cs",
+              "DocumentMoniker": "D:\\demka\\demm1\\Avtoriz.xaml.cs",
+              "RelativeDocumentMoniker": "Avtoriz.xaml.cs",
+              "ToolTip": "D:\\demka\\demm1\\Avtoriz.xaml.cs",
+              "RelativeToolTip": "Avtoriz.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvyIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T21:11:16.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow2.xaml.cs",
+              "DocumentMoniker": "D:\\demka\\demm1\\MainWindow2.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow2.xaml.cs",
+              "ToolTip": "D:\\demka\\demm1\\MainWindow2.xaml.cs",
+              "RelativeToolTip": "MainWindow2.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAnwCkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:28:22.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\demka\\demm1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\demka\\demm1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAjwCkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T13:21:28.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditWindow.xaml",
+              "DocumentMoniker": "D:\\demka\\demm1\\EditWindow.xaml",
+              "RelativeDocumentMoniker": "EditWindow.xaml",
+              "ToolTip": "D:\\demka\\demm1\\EditWindow.xaml",
+              "RelativeToolTip": "EditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T15:16:28.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddRequest.xaml.cs",
+              "DocumentMoniker": "D:\\demka\\demm1\\AddRequest.xaml.cs",
+              "RelativeDocumentMoniker": "AddRequest.xaml.cs",
+              "ToolTip": "D:\\demka\\demm1\\AddRequest.xaml.cs",
+              "RelativeToolTip": "AddRequest.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:34:23.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditWindow.xaml.cs",
+              "DocumentMoniker": "D:\\demka\\demm1\\EditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EditWindow.xaml.cs",
+              "ToolTip": "D:\\demka\\demm1\\EditWindow.xaml.cs",
+              "RelativeToolTip": "EditWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T15:19:19.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\demka\\demm1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\demka\\demm1\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T21:05:57.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow2.xaml",
+              "DocumentMoniker": "D:\\demka\\demm1\\MainWindow2.xaml",
+              "RelativeDocumentMoniker": "MainWindow2.xaml",
+              "ToolTip": "D:\\demka\\demm1\\MainWindow2.xaml",
+              "RelativeToolTip": "MainWindow2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T14:27:04.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddRequest.xaml",
+              "DocumentMoniker": "D:\\demka\\demm1\\AddRequest.xaml",
+              "RelativeDocumentMoniker": "AddRequest.xaml",
+              "ToolTip": "D:\\demka\\demm1\\AddRequest.xaml",
+              "RelativeToolTip": "AddRequest.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T18:02:57.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\demka\\demm1\\Model1.edmx",
+              "RelativeDocumentMoniker": "Model1.edmx",
+              "ToolTip": "D:\\demka\\demm1\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-30T21:08:16.28Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\demka\\demm1\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\demka\\demm1\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-01T16:18:06.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Avtoriz.xaml",
+              "DocumentMoniker": "D:\\demka\\demm1\\Avtoriz.xaml",
+              "RelativeDocumentMoniker": "Avtoriz.xaml",
+              "ToolTip": "D:\\demka\\demm1\\Avtoriz.xaml",
+              "RelativeToolTip": "Avtoriz.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T21:09:27.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\demka\\demm1\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\demka\\demm1\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T21:06:40.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 11,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

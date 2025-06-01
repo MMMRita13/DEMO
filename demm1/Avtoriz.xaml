@@ -1,0 +1,15 @@
+﻿<Window x:Class="demm1.Avtoriz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:demm1"
+        mc:Ignorable="d"
+        Title="Avtoriz" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="LoginTB" HorizontalAlignment="Left" Margin="306,184,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" />
+        <PasswordBox x:Name="PassB" HorizontalAlignment="Left" Margin="304,245,0,0" VerticalAlignment="Top" Width="120"/>
+ <Button Content="Вход" HorizontalAlignment="Left" Margin="280,280,0,0" VerticalAlignment="Top" Height="31" Width="167" Click="SignButton_Click"/>
+       
+    </Grid>
+</Window>
