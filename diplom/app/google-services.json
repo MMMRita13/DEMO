@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "103914882782",
+    "firebase_url": "https://diplom-fade6-default-rtdb.firebaseio.com",
+    "project_id": "diplom-fade6",
+    "storage_bucket": "diplom-fade6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103914882782:android:a655ef54b0f8c1ba02a44f",
+        "android_client_info": {
+          "package_name": "com.example.diplom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKGgQq_sVV7QUxD2OMUWgC5gGaiq3xDow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

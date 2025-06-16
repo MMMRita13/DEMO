@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Основная труба скважины -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20L54,88"
+        android:strokeWidth="8"
+        android:strokeColor="#FFFFFF"/>
+
+    <!-- Верхняя часть скважины (вышка) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,20L68,20L68,30L40,30Z"/>
+
+    <!-- Средняя часть вышки -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,25L68,25L68,35L40,35Z"/>
+
+    <!-- Нижняя часть вышки -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,78L64,78L64,88L44,88Z"/>
+
+    <!-- Платформа скважины -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,75L78,75L78,85L30,85Z"/>
+
+    <!-- Трубы управления -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,45L40,75"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,45L68,75"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"/>
+
+
+
+    <!-- Текст "Газпром" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,65L68,65"
+        android:strokeWidth="1"
+        android:strokeColor="#FFFFFF"/>
+
+
+</vector>

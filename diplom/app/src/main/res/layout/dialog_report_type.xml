@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите тип отчета"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/technicalReportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Технический отчет"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/primary_light_blue" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/operationalReportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Эксплуатационный отчет"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/primary_light_blue" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/inspectionReportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отчет по проверкам"
+        android:backgroundTint="@color/primary_light_blue" />
+
+
+</LinearLayout> 

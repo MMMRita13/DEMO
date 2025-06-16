@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">ГеоСтраж</string>
+    <string name="add_well">Добавить скважину</string>
+    <string name="wells">Скважины</string>
+    <string name="well_name">Краткое наименование</string>
+    <string name="well_full_name">Полное наименование</string>
+    <string name="well_type">Тип скважины</string>
+    <string name="well_status">Статус</string>
+    <string name="well_description">Описание</string>
+    <string name="well_history">История</string>
+    <string name="save">Сохранить</string>
+    <string name="refresh">Обновить</string>
+    <string name="edit_well">Редактировать скважину</string>
+    <string name="well_added">Скважина добавлена</string>
+    <string name="well_updated">Скважина обновлена</string>
+    <string name="well_deleted">Скважина удалена</string>
+    <string name="admin_only">Только администраторы могут добавлять скважины</string>
+    <string name="delete_well_title">Удаление скважины</string>
+    <string name="delete_well_message">Вы уверены, что хотите удалить эту скважину?</string>
+    <string name="delete_well">Удалить скважину</string>
+    <string name="delete_well_confirmation">Вы уверены, что хотите удалить эту скважину?</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="edit">Редактировать</string>
+    <string name="export">Экспорт в Excel</string>
+    <string name="report">Создать отчет</string>
+    <string name="insufficient_permissions">У вас недостаточно прав для выполнения этого действия</string>
+
+    <!-- Employee -->
+    <string name="employees">Сотрудники</string>
+    <string name="employee_details">Информация о сотруднике</string>
+    <string name="add_employee">Добавить сотрудника</string>
+    <string name="edit_employee">Редактировать сотрудника</string>
+    <string name="delete_employee">Удалить сотрудника</string>
+    <string name="delete_employee_confirmation">Вы уверены, что хотите удалить этого сотрудника?</string>
+    <string name="employee_added">Сотрудник добавлен</string>
+    <string name="employee_updated">Сотрудник обновлен</string>
+    <string name="employee_deleted">Сотрудник удален</string>
+    <string name="employee_found">Сотрудник не найден</string>
+    <string name="employee_name">ФИО</string>
+    <string name="employee_position">Должность</string>
+    <string name="employee_department">Отдел</string>
+    <string name="employee_email">Email</string>
+    <string name="employee_phone">Телефон</string>
+    <string name="employee_status">Статус</string>
+
+    <!-- Employee Status -->
+    <string name="active">Активен</string>
+    <string name="inactive">Неактивен</string>
+
+    <!-- Search -->
+    <string name="search_wells">Поиск скважин</string>
+    <string name="filter_by_status">Фильтр по статусу</string>
+
+    <string name="no_location">Координаты не указаны</string>
+
+    <!-- Диалог скважины -->
+    <string name="well_depth">Глубина (м)</string>
+    <string name="well_production_rate">Плотность заполнения скважины (г/см3)</string>
+    <string name="well_latitude">Широта</string>
+    <string name="well_longitude">Долгота</string>
+    <string name="well_notes">Примечания</string>
+    <string name="add_new_well">Добавление скважины</string>
+    <string name="fill_required_fields">Заполните обязательные поля</string>
+
+    <string name="well_responsible_person">Ответственное лицо</string>
+
+    <string name="error_deleting_well">Ошибка при удалении скважины</string>
+
+    <string name="invalid_name">Имя должно содержать минимум 2 символа</string>
+    <string name="invalid_position">Должность не может быть пустой</string>
+    <string name="invalid_department">Отдел не может быть пустым</string>
+    <string name="invalid_email">Введите корректный email адрес</string>
+    <string name="invalid_phone">Введите номер телефона из 11 цифр</string>
+
+    <string name="status_in_work">В работе</string>
+    <string name="status_not_in_work">Не в работе</string>
+    <string name="status_closed">Закрыта</string>
+</resources>

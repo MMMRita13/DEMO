@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_employees">
+
+    <fragment
+        android:id="@+id/navigation_employees"
+        android:name="com.example.diplom.ui.employees.EmployeesFragment"
+        android:label="Сотрудники" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.diplom.ui.map.MapFragment"
+        android:label="Карта" />
+
+    <fragment
+        android:id="@+id/navigation_safety"
+        android:name="com.example.diplom.ui.safety.SafetyFragment"
+        android:label="Безопасность" />
+
+</navigation> 
